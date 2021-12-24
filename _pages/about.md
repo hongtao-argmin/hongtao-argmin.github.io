@@ -26,7 +26,6 @@ Contact Information:
 ======
 University of Michigan, Ann Arbor <br>
 Functional MRI Lab <br>
-#Taub Building, Office 407 <br>
 MI, 48109, USA <br>
 Email: ta+lastname@umich.edu
 
