@@ -17,6 +17,7 @@ My research interests include:
   <li>Numerical Optimization & Multigrid Computational Methods</li>
   <li>Scientific Computing</li>
   <li>ASL MRI</li>
+  <li>Compressive Sensing</li>
   <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li>
 </ul>
 
@@ -32,6 +33,3 @@ Email: ta+lastname@umich.edu
 <a href="https://hongtao-argmin.github.io">
 <img src="/images/IMG_9131.JPG" alt="Trulli" width="700" height="333">
 </a>
-
-#Deep Learning
-#Compressive Sensing
