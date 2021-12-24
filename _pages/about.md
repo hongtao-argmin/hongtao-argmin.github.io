@@ -33,5 +33,5 @@ Email: ta+lastname@umich.edu
 <img src="/images/IMG_9131.JPG" alt="Trulli" width="700" height="333">
 </a>
 
-#<li>Deep Learning</li>
-#<li>Compressive Sensing</li>
+#Deep Learning
+#Compressive Sensing
