@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,32 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a postdoctoral research in the [Functional MRI Lab](http://fmri.research.umich.edu/index.php) at the University of Michigan, Ann Arbor, working with Prof.  [Jeff Fessler](https://web.eecs.umich.edu/~fessler/) and Prof.  [Luis Hernandez-Garcia](http://fmri.research.umich.edu/about/faculty/hernandez.php) on topics in inverse problems and ASL MRI. Before that, I completed my PhD research in the [Computer Science Department](https://www.cs.technion.ac.il) at the Technion — Israel Institute of Technology,  under the supervision of Prof. [Irad Yavneh](http://irad.net.technion.ac.il) and Prof. [Michael Zibulevsky](https://sites.google.com/site/michaelzibulevsky/).  My graduate research mainly focused on numerical optimization and multigrid methods. [Thesis link](https://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2021/PHD/PHD-2021-13).
+
+My research interests include:
+======
+
+<ul>
+  <li>Numerical Optimization & Multigrid Computational Methods</li>
+  <li>Scientific Computing</li>
+  #<li>Deep Learning</li>
+  #<li>Compressive Sensing</li>
+  <li>ASL MRI</li>
+  <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li>
+</ul>
+
+
+Contact Information:
+======
+University of Michigan, Ann Arbor <br>
+Functional MRI Lab <br>
+#Taub Building, Office 407 <br>
+MI, 48109, USA <br>
+Email: ta+lastname@umich.edu
+
+<a href="https://hongtao-argmin.github.io">
+<img src="/images/IMG_9131.JPG" alt="Trulli" width="700" height="333">
+</a>
 
 A data-driven personal website
 ======
