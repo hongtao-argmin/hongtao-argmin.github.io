@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Publications"
-     url: /_pages/publications.html
+     url: /_pages/publications
      #url: /publications/
 
   #- title: "Talks"
