@@ -24,8 +24,8 @@ My research interests include:
 
 Contact Information:
 ======
-University of Michigan, Ann Arbor <br>
 Functional MRI Lab <br>
+University of Michigan, Ann Arbor <br>
 MI, 48109, USA <br>
 Email: ta+lastname@umich.edu
 
