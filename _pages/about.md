@@ -8,8 +8,10 @@ redirect_from:
   - /about.html
 ---
 
+<p style="text-align:justify; text-justify:inter-ideograph;">
 I am a postdoc in the [Functional MRI Lab](http://fmri.research.umich.edu/index.php) at the University of Michigan, Ann Arbor, working with Prof.  [Jeffrey A. Fessler](https://web.eecs.umich.edu/~fessler/) and Prof.  [Luis Hernandez-Garcia](http://fmri.research.umich.edu/about/faculty/hernandez.php) on topics in inverse problems and ASL MRI. Before that, I completed my PhD research in the [Computer Science Department](https://www.cs.technion.ac.il) at the Technion — Israel Institute of Technology,  under the supervision of Prof. [Irad Yavneh](http://irad.net.technion.ac.il) and Prof. [Michael Zibulevsky](https://sites.google.com/site/michaelzibulevsky/).  My graduate research mainly focused on numerical optimization and multigrid methods. [Thesis link](https://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2021/PHD/PHD-2021-13).
-
+ </p>
+ 
 My research interests include:
 ======
 
