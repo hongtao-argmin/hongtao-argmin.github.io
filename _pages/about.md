@@ -17,9 +17,9 @@ My research interests include:
 
 <ul>
   <li>Numerical Optimization & Multigrid Computational Methods</li>
-  <li>Scientific Computing</li>
+  <li>Scientific Computing and Compressive Sensing</li>
+  #<li>Compressive Sensing</li>
   <li>Arterial Spin Labeling (ASL) and MRI Imaging</li>
-  <li>Compressive Sensing</li>
   <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li>
 </ul>
 
