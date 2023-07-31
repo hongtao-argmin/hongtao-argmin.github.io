@@ -39,3 +39,5 @@ Email: ta+lastname@umich.edu
 https://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2021/PHD/PHD-2021-13
 -->
 
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=wMBep7xmK2akhC--rKvXsXFXJFCS1qisst7HCDAJqpU&cl=ffffff&w=a"></script>
