@@ -181,9 +181,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  CV:
-  output: true
-  permalink: /:collection/:path/
   #code:
   #  output: true
   #  permalink: /:collection/:path/
