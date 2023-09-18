@@ -9,9 +9,13 @@ redirect_from:
 ---
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
-I am a postdoc in the <a href="http://fmri.research.umich.edu/index.php"> Functional MRI Lab</a> at the University of Michigan, Ann Arbor, working with Prof.  <a href="https://web.eecs.umich.edu/~fessler/">Jeffrey A. Fessler</a> and Prof.  <a href="http://fmri.research.umich.edu/about/faculty/hernandez.php">Luis Hernandez-Garcia</a> on topics in inverse problems and ASL MRI. Before that, I completed my PhD research in the <a href="https://www.cs.technion.ac.il">Computer Science Department</a> at the Technion — Israel Institute of Technology,  under the supervision of Prof. <a href="http://irad.net.technion.ac.il">Irad Yavneh</a> and Prof. <a href="https://sites.google.com/site/michaelzibulevsky/">Michael Zibulevsky</a>.  My graduate research mainly focused on numerical optimization and multigrid methods. <a href="https://hongtao-argmin.github.io/files/PhDThesisTaoHong_Full.pdf">Thesis link</a>.
+I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.php"> Functional MRI Lab</a> at the University of Michigan, Ann Arbor, collaborating with Prof.  <a href="https://web.eecs.umich.edu/~fessler/">Jeffrey A. Fessler</a> and Prof.  <a href="http://fmri.research.umich.edu/about/faculty/hernandez.php">Luis Hernandez-Garcia</a> on topics in inverse problems and ASL MRI. Prior to this, I completed my PhD research in the <a href="https://www.cs.technion.ac.il">Computer Science Department</a> at the Technion — Israel Institute of Technology,  under the supervision of Prof. <a href="http://irad.net.technion.ac.il">Irad Yavneh</a> and Prof. <a href="https://sites.google.com/site/michaelzibulevsky/">Michael Zibulevsky</a>.  My graduate research primarily focused on numerical optimization and multigrid computational methods. <a href="https://hongtao-argmin.github.io/files/PhDThesisTaoHong_Full.pdf">Thesis link</a>.
  </p>
  
+ <p
+ <span style="color: #0000ff;">CV</span>  <span style="color: #0000ff;">Research Statement</span>  <span style="color: #0000ff;">Teaching Statement</span>
+  </p>
+  
 My research interests include:
 ======
 
