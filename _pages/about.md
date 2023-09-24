@@ -32,14 +32,14 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
     I am currently on the job market.
 </div>
 
+ <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 32px;margin-bottom: 30px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;margin-left: 20px;margin-right: 20px;margin-bottom: 30px;">Research Statement</span></a>  <a href="https://hongtao-argmin.github.io/files/TS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;margin-bottom: 50px;">Teaching Statement</span></a>
+ 
 </body>
 </html>
-
- <!--#-->
+ <!--
  <center>
- <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 32px;margin-bottom: 30px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;margin-left: 20px;margin-right: 20px;margin-bottom: 30px;">Research Statement</span></a>  <a href="https://hongtao-argmin.github.io/files/TS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;margin-bottom: 50px;">Teaching Statement</span></a>
 </center>
-  
+-->
 My research interests include:
 ======
 
