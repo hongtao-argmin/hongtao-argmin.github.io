@@ -13,7 +13,6 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
  </p>
  
 
-<!DOCTYPE html>
 <html>
 <head>
     <style>
