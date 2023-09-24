@@ -12,9 +12,32 @@ redirect_from:
 I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.php"> Functional MRI Lab</a> at the University of Michigan, Ann Arbor, collaborating with Prof.  <a href="https://web.eecs.umich.edu/~fessler/">Jeffrey A. Fessler</a> and Prof.  <a href="http://fmri.research.umich.edu/about/faculty/hernandez.php">Luis Hernandez-Garcia</a> on topics in inverse problems and ASL MRI. Prior to this, I completed my PhD research in the <a href="https://www.cs.technion.ac.il">Computer Science Department</a> at the Technion — Israel Institute of Technology,  under the supervision of Prof. <a href="http://irad.net.technion.ac.il">Irad Yavneh</a> and Prof. <a href="https://sites.google.com/site/michaelzibulevsky/">Michael Zibulevsky</a>.  My graduate research primarily focused on numerical optimization and multigrid computational methods. <a href="https://hongtao-argmin.github.io/files/PhDThesisTaoHong_Full.pdf">Thesis link</a>.
  </p>
  
- <!--#-->
- <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 32px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;margin-left: 20px;margin-right: 20px;">Research Statement</span></a>  <a href="https://hongtao-argmin.github.io/files/TS_Tao.pdf.pdf"><span style="color: #0000ff;font-size: 32px;">Teaching Statement</span></a>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .centered-text {
+            font-size: 24px;      /* Large font size */
+            font-weight: bold;    /* Bold font weight */
+            color: black;         /* Black color text */
+            text-align: center;   /* Center the text */
+        }
+    </style>
+</head>
+<body>
+
+<div class="centered-text">
+    I am currently on the job market.
+</div>
+
+</body>
+</html>
+
+ <!--#-->
+ <center>
+ <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 32px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;margin-left: 20px;margin-right: 20px;">Research Statement</span></a>  <a href="https://hongtao-argmin.github.io/files/TS_Tao.pdf.pdf"><span style="color: #0000ff;font-size: 32px;">Teaching Statement</span></a>
+</center>
   
 My research interests include:
 ======
