@@ -21,6 +21,8 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
             font-weight: bold;    /* Bold font weight */
             color: black;         /* Black color text */
             text-align: center;   /* Center the text */
+            margin: 0;            /* Remove vertical margin */
+            padding: 0;           /* Remove padding */
         }
     </style>
 </head>
