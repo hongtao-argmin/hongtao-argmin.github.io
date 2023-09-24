@@ -40,7 +40,9 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </body>
 </html>
 
-
+<!--
+  <a href="https://hongtao-argmin.github.io/files/TS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;">Teaching Statement</span></a>
+  -->
 
 My research interests include:
 ======
