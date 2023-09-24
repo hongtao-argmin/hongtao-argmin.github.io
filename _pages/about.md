@@ -36,10 +36,8 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
  
 </body>
 </html>
- <!--
- <center>
-</center>
--->
+
+
 My research interests include:
 ======
 
