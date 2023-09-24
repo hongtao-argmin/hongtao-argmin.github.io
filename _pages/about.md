@@ -40,7 +40,6 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </html>
 
 
-
 My research interests include:
 ======
 
