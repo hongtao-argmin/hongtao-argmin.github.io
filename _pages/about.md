@@ -17,7 +17,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 <head>
     <style>
         .centered-text {
-            font-size: 24px;      /* Large font size */
+            font-size: 30px;      /* Large font size */
             font-weight: bold;    /* Bold font weight */
             color: black;         /* Black color text */
             text-align: center;   /* Center the text */
@@ -33,7 +33,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </div>
 
  <center>
- <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 32px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;margin-left: 20px;margin-right: 20px;">Research Statement</span></a> 
+ <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 25px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 25px;margin-left: 20px;margin-right: 20px;">Research Statement</span></a> 
  
  </center>
  
