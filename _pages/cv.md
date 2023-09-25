@@ -14,7 +14,6 @@ Link
 ======
 [Download my CV here]()
 
-  <a href="https://hongtao-argmin.github.io/files/TS_Tao.pdf"><span style="color: #0000ff;font-size: 32px;">Teaching Statement</span></a>
 
 
 <!--
