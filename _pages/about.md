@@ -22,7 +22,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
             color: black;         /* Black color text */
             text-align: center;   /* Center the text */
             margin: 0px;            /* Remove vertical margin */
-            padding: 0px;           /* Remove padding */
+            padding: 10px;           /* Remove padding */
         }
     </style>
 </head>
