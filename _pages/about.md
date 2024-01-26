@@ -29,9 +29,11 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </head>
 <body>
 
+<!--
 <div class="centered-text">
     I am currently on the job market.
 </div>
+-->
 
  <center>
  <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 28px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 28px;margin-left: 20px;margin-right: 20px;">Research Statement</span></a> 
