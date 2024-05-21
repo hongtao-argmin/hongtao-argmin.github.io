@@ -50,7 +50,7 @@ My research interests include:
 <ul>
   <li>Numerical Optimization & Multigrid Computational Methods</li>
   <li>Scientific Computing & Compressive Sensing</li>
-  <li>Arterial Spin Labeling (ASL) and Computational MRI Imaging</li>
+  <li>Arterial Spin Labeling (ASL) and Computational MR Imaging</li>
   <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li>
 </ul>
 
