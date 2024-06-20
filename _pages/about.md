@@ -45,12 +45,11 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 
 Recent news
 ======
-
+ <ul>
 ```
-  <ul>
-    <li>08-22-2022: I started my postdoc research at UMich under the supervision of Prof. Jeffrey Fessler. </li>
-</ul>
+   <li>08-22-2022: I started my postdoc research at UMich under the supervision of Prof. Jeffrey Fessler. </li>
 ```
+ </ul>
 
 
 My research interests include:
