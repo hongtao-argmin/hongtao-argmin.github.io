@@ -48,7 +48,7 @@ Recent news
 
 ```
   <ul>
-    <li><font size="15"> 08-22-2022: I started my postdoc research at UMich under the supervision of Prof. Jeffrey Fessler.</font> </li>
+    <li>08-22-2022: I started my postdoc research at UMich under the supervision of Prof. Jeffrey Fessler. </li>
 </ul>
 ```
 
