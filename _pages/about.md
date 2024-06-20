@@ -44,23 +44,16 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </html>
 
 
+<!--
 <body>
     <div class="recent-news">
         <h2>Recent News</h2>
         <ul>
             <li><strong>08-22-2022</strong>: I started my postdoc research at UMich under the supervision of Prof. Jeffrey Fessler.</li>
-            <li><strong>07-28-2022</strong>: I passed my dissertation defense on "Model-based Deep Learning for Computational Imaging".</li>
-            <li><strong>05-24-2021</strong>: I started my research intern at Facebook Reality Labs Research (FRL).</li>
-            <li><strong>05-04-2021</strong>: I passed my thesis proposal defense on "Model-based Deep Learning for Computational Imaging".</li>
-            <li><strong>04-03-2020</strong>: I passed my oral qualification exam on "Computational Imaging: Leverage the Power of Deep Learning".</li>
-            <li><strong>05-27-2019</strong>: I started my research intern at Mitsubishi Electric Research Laboratory (MERL).</li>
-            <li><strong>02-01-2018</strong>: I joined the Computational Imaging Group (CIG) under the supervision of Prof. Ulugbek Kamilov.</li>
-            <li><strong>08-27-2017</strong>: I joined the Computer Science and Engineering (CSE) department at WashU.</li>
         </ul>
     </div>
 </body>
-
-
+ -->
 
 My research interests include:
 ======
