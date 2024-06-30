@@ -34,15 +34,26 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
     I am currently on the job market.
 </div>
 -->
-
+<!--
  <center>
  <a href="https://hongtao-argmin.github.io/files/CVTao.pdf"><span style="color: #0000ff;font-size: 28px;">CV</span></a> <a href="https://hongtao-argmin.github.io/files/RS_Tao.pdf"><span style="color: #0000ff;font-size: 28px;margin-left: 20px;margin-right: 20px;">Research Statement</span></a> 
  
  </center>
- 
+ -->
 </body>
 </html>
 
+
+<!--
+<body>
+    <div class="recent-news">
+        <h2>Recent News</h2>
+        <ul>
+            <li><strong>08-22-2022</strong>: I started my postdoc research at UMich under the supervision of Prof. Jeffrey Fessler.</li>
+        </ul>
+    </div>
+</body>
+ -->
 
 My research interests include:
 ======
@@ -50,7 +61,7 @@ My research interests include:
 <ul>
   <li>Numerical Optimization & Multigrid Computational Methods</li>
   <li>Scientific Computing & Compressive Sensing</li>
-  <li>Arterial Spin Labeling (ASL) and Computational MRI Imaging</li>
+  <li>Arterial Spin Labeling (ASL) and Computational MR Imaging</li>
   <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li>
 </ul>
 
