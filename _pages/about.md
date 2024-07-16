@@ -12,7 +12,7 @@ redirect_from:
 I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.php"> Functional MRI Lab</a> at the University of Michigan, Ann Arbor, collaborating with Prof.  <a href="https://web.eecs.umich.edu/~fessler/">Jeffrey A. Fessler</a> and Prof.  <a href="http://fmri.research.umich.edu/about/faculty/hernandez.php">Luis Hernandez-Garcia</a> on topics in inverse problems and ASL MRI. Prior to this, I completed my PhD research in the <a href="https://www.cs.technion.ac.il">Computer Science Department</a> at the Technion — Israel Institute of Technology,  under the supervision of Prof. <a href="http://irad.net.technion.ac.il">Irad Yavneh</a> and Prof. <a href="https://sites.google.com/site/michaelzibulevsky/">Michael Zibulevsky</a>.  My graduate research primarily focused on numerical optimization and multigrid computational methods. <a href="https://hongtao-argmin.github.io/files/PhDThesisTaoHong_Full.pdf">Thesis link</a>.
  </p>
 
-<p>I have an Erd&#x0110s number of 3.</p>
+<p>I have an Erd&#337s number of 3.</p>
 
 <html>
 <head>
