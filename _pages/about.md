@@ -45,7 +45,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </html>
 
 
-</body>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -117,7 +117,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 
 </body>
 </html>
-</body>
+
 
 
 
