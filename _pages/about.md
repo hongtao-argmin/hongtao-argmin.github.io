@@ -46,7 +46,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 
 
 
-<html lang="en">
+</html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
