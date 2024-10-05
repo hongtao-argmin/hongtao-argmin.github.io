@@ -41,10 +41,12 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
  
  </center>
  -->
- 
- 
-</html>
 </body>
+</html>
+
+
+</html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -110,13 +112,14 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 <div class="news-box">
     <h2>Recent news</h2>
     <ul>
-        <li><span class="date">12-13-2021:</span> I started my postdoc research at UMich under the supervision of Prof.  <a href="https://web.eecs.umich.edu/~fessler/">Jeffrey A. Fessler</a> and Prof. <a href="http://fmri.research.umich.edu/about/faculty/hernandez.php">Luis Hernandez-Garcia</a>.</li>
+        <li><span class="date">08-22-2022:</span> I started my postdoc research at UMich under the supervision of Prof. Jeffrey Fessler.</li>
     </ul>
 </div>
 
 </body>
-
 </html>
+
+
 
 
 <!--
