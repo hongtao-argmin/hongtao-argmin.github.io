@@ -45,6 +45,80 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </html>
 
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent News</title>
+    <style>
+        /* Style for the box */
+        .news-box {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 600px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Style for the heading */
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        /* Style for the list items */
+        ul {
+            list-style: none;
+            padding-left: 10px;
+        }
+
+        ul li {
+            padding: 5px 0;
+        }
+
+        /* Style for the bullet points */
+        ul li::before {
+            content: "●";
+            color: #a0c64f;  /* Custom bullet color */
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        /* Style for the date */
+        .date {
+            color: #06c;
+            font-weight: bold;
+        }
+
+        /* Style for the links */
+        a {
+            color: #06c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="news-box">
+    <h2>Recent news</h2>
+    <ul>
+        <li><span class="date">12-13-2021:</span> I started my postdoc research at UMich under the supervision of Prof.  <a href="https://web.eecs.umich.edu/~fessler/">Jeffrey A. Fessler</a> and Prof. <a href="http://fmri.research.umich.edu/about/faculty/hernandez.php">Luis Hernandez-Garcia</a>.</li>
+    </ul>
+</div>
+
+</body>
+</html>
+
 <!--
 <body>
     <div class="recent-news">
