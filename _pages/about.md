@@ -56,7 +56,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
             background-color: #f8f9fa;
             border: 1px solid #ddd;
             padding: 20px;
-            width: 600px;
+            width: 1000px;
             margin: 20px auto;
             font-family: Arial, sans-serif;
         }
