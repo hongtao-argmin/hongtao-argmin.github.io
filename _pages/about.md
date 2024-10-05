@@ -41,10 +41,10 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
  
  </center>
  -->
-</body>
+ 
+ 
 </html>
-
-
+</body>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
