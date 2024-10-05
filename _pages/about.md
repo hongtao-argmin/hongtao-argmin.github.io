@@ -45,8 +45,6 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
 </html>
 
 
-</html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -58,7 +56,7 @@ I am currently a postdoc in the <a href="http://fmri.research.umich.edu/index.ph
             background-color: #f8f9fa;
             border: 1px solid #ddd;
             padding: 20px;
-            width: 1000px;
+            width: 800px;
             margin: 20px auto;
             font-family: Arial, sans-serif;
         }
