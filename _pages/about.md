@@ -174,7 +174,7 @@ https://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2021/PHD/PHD-2021-1
 
 
 <body> 
-<p style="text-align:left">
+<p style="text-align:left;opacity:0;">
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=wMBep7xmK2akhC--rKvXsXFXJFCS1qisst7HCDAJqpU"></script>
  </p>
 </body>
