@@ -4,13 +4,6 @@ title: Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Deno
 permalink: /CQNPM-GD-CSMRI/
 ---
 
-
----
-layout: default
-title: My Page
-permalink: /mypage/
----
-
 <!-- MathJax config with macros -->
 <script>
 MathJax = {
