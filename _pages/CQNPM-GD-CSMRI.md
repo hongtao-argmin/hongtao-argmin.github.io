@@ -207,17 +207,24 @@ $$
 <tr>
 <td style="width: 80%; vertical-align: top; padding-right: 1em;">
 
-  <h3 style="color: #333;">Algorithm</h3>
+<h3 style="color: #333;">Algorithm</h3>
 
+<ol>
+  <li><strong>Initialization</strong>: $\\uvx_1$ and stepsize $\\alpha_k > 0$</li>
 
-1. **Initialization**: $\\uvx_1$ and stepsize $\\alpha_k > 0$  
-2. **For $k = 1, 2, \\ldots$ until convergence**:
-   - Estimate $\umH_k \\succ 0$ and $\umB_k$ using Algorithm 2 (see paper).
-   - Update:
+  <li>
+    <strong>For $k = 1, 2, \\ldots$ until convergence</strong>:
+    <ul>
+      <li>Estimate $\umH_k \\succ 0$ and $\umB_k$ using Algorithm 2 (see paper).</li>
+      <li>Update:
      $$
      \uvx_{k+1} \leftarrow \\operatorname{prox}^{\umB_k}_{\alpha_k \\, h + \iota_{\mathcal{C}}}
      \left( \uvx_k - \alpha_k \, \umH_k \, \nabla_{\uvx} f(\uvx_k) \right)
      $$
+      </li>
+    </ul>
+  </li>
+</ol>
 
 </td>
 </tr>
