@@ -199,6 +199,7 @@ $$
 <table style="width: 100%; margin-top: 1em;">
 <tr>
 <td style="width: 80%; vertical-align: top; padding-right: 1em;">
+
 ### Algorithm
 
 1. **Initialization**: ${\uvx}_1$ and stepsize $\alpha_k > 0$.
