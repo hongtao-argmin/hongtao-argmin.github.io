@@ -157,6 +157,8 @@ MathJax = {
 
 
 
+
+
 <div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; font-size: 1.4em;">
 
 
@@ -198,27 +200,27 @@ $$
 
 
 
-<div style="background-color: #e8f0fe; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto;">
+<div style="background-color: #e8f0fe; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto;" font-size: 1.4em;>
 
-<h2 style="margin-top: 0;">CQNPM: Reconstruction Algorithm</h2>
+<h2 style="margin-top: 0; font-size: 2.4em;">CQNPM: Reconstruction Algorithm</h2>
 
 
 <table style="width: 100%; margin-top: 1em;">
 <tr>
 <td style="width: 80%; vertical-align: top; padding-right: 1em;">
 
-<h3 style="color: #333;">Algorithm</h3>
+<h3 style="color: #333; font-size: 1.8em;">Algorithm</h3>
 
 <ol>
-  <li><strong>Initialization</strong>: $\\uvx_1$ and stepsize $\\alpha_k > 0$</li>
+  <li><strong>Initialization</strong>: $\uvx_1$ and stepsize $\alpha_k > 0$</li>
 
   <li>
-    <strong>For $k = 1, 2, \\ldots$ until convergence</strong>:
+    <strong>For $k = 1, 2, \ldots$ until convergence</strong>:
     <ul>
-      <li>Estimate $\umH_k \\succ 0$ and $\umB_k$ using Algorithm 2 (see paper).</li>
+      <li>Estimate $\umH_k \succ 0$ and $\umB_k$ using Algorithm 2 (see paper).</li>
       <li>Update:
      $$
-     \uvx_{k+1} \leftarrow \\operatorname{prox}^{\umB_k}_{\alpha_k \\, h + \iota_{\mathcal{C}}}
+     \uvx_{k+1} \leftarrow \operatorname{prox}^{\umB_k}_{\alpha_k \\, h + \iota_{\mathcal{C}}}
      \left( \uvx_k - \alpha_k \, \umH_k \, \nabla_{\uvx} f(\uvx_k) \right)
      $$
       </li>
