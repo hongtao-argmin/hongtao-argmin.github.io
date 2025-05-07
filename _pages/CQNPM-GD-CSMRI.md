@@ -4,6 +4,11 @@ title: Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Deno
 permalink: /CQNPM-GD-CSMRI/
 ---
 
+<!-- MathJax CDN (place at top of the markdown page) -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
 <h1 style="text-align: center;" class="big-title">Convergent Complex Quasi-Newton Proximal Methods <br> for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</h1>
 
@@ -87,5 +92,7 @@ permalink: /CQNPM-GD-CSMRI/
 
 
 <div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
-
+$$
+\\hat{x} = \\arg\\min_{x} \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
+$$
 </div>
