@@ -193,7 +193,7 @@ demonstrate the effectiveness and efficiency of our approach.
   max-width: 400px;
   margin: 2em auto;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
 ">
 
 $$
