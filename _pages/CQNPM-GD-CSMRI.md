@@ -37,10 +37,52 @@ permalink: /CQNPM-GD-CSMRI/
   
 </div>
 
-<p style="text-align: center;">
-  <a href="#" class="btn">📄 arXiv</a>
-  <a href="#" class="btn">📎 Full res paper (341MB)</a>
-  <a href="#" class="btn">💻 Code</a>
-  <a href="#" class="btn disabled">🤗 HF demo (soon)</a>
-</p>
+
+  <!-- Font Awesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Button container -->
+<div style="text-align: center; margin-top: 1em;">
+
+  <a href="https://arxiv.org" class="button-pill">
+    <i class="fas fa-arrow-up-right-from-square"></i> arXiv
+  </a>
+
+  <a href="yourpdf.pdf" class="button-pill">
+    <i class="fas fa-file-pdf"></i> Full res paper (341Mb)
+  </a>
+
+  <a href="https://github.com" class="button-pill">
+    <i class="fab fa-github"></i> Code
+  </a>
+
+  <a href="#" class="button-pill">
+    <i class="fas fa-robot"></i> HF demo (soon)
+  </a>
+
+</div>
+
+<!-- Button style -->
+<style>
+.button-pill {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.6em 1em;
+  background-color: #222;
+  color: white;
+  border-radius: 2em;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 0.95em;
+  transition: background 0.3s;
+}
+.button-pill:hover {
+  background-color: #444;
+}
+.button-pill i {
+  margin-right: 0.4em;
+}
+</style>
+
 
