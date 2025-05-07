@@ -84,3 +84,17 @@ permalink: /CQNPM-GD-CSMRI/
 </style>
 
 
+
+## Optimization Problem
+
+We solve the following:
+
+$$
+\min_x \|Ax - b\|_2^2 + \lambda \|x\|_1
+$$
+
+The solution satisfies:
+
+$$
+x = \operatorname{prox}_{\lambda \|\cdot\|_1}(A^\top b)
+$$
