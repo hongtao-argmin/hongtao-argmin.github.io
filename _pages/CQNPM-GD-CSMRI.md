@@ -157,6 +157,23 @@ MathJax = {
 
 
 
+<div style="text-align: center;">
+  <img src="assets/recon_example.gif" alt="Reconstruction animation" style="width: 80%;">
+</div>
+
+
+
+---
+
+## Abstract
+
+In compressed sensing (CS) MRI, model-based methods are pivotal to achieving accurate reconstruction. One of the main challenges in model-based methods is finding an effective prior to describe the statistical distribution of the target image. Plug-and-Play (PnP) and REgularization by Denoising (RED) are two general frameworks that use denoisers as the prior. While PnP/RED methods with convolutional neural networks (CNNs) based denoisers outperform classical hand-crafted priors in CS MRI, their convergence theory relies on assumptions that do not hold for practical CNNs. The recently developed gradient-driven denoisers offer a framework that bridges the gap between practical performance and theoretical guarantees. However, the numerical solvers for the associated minimization problem remain slow for CS MRI reconstruction. This paper proposes a complex quasi-Newton proximal method that achieves faster convergence than existing approaches. To address the complex domain in CS MRI, we propose a modified Hessian estimation method that guarantees Hermitian positive definiteness. Furthermore, we provide a rigorous convergence analysis of the proposed method
+for nonconvex settings. Numerical experiments on both Cartesian and non-Cartesian sampling trajectories
+demonstrate the effectiveness and efficiency of our approach.
+
+---
+
+
 
 <div style="
   border: 1px solid #ccc;
@@ -176,8 +193,22 @@ $$
 <br>
 
 $$
-{\uvx}^* = \arg\min_{\uvx}  \lambda f_{\boldsymbol \theta}(\uvx) + \underbrace{\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
+{\uvx}^* = \arg\min_{\uvx}  f_{\boldsymbol \theta}(\uvx) + \underbrace{\frac{1}{2}\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
 $$
 
 </div>
 
+
+## CQNPM: Reconstruction Algorithm
+
+<table style="width: 100%; margin-top: 1em;">
+<tr>
+
+### Algorithm
+
+1. **Initialization**: ${\uvx}_1$ and stepsize $\alpha_k > 0$.
+2. **For \( t = T \) to \( 1 \)**:
+   -  Estimate ${\umH}_k\succ 0$ and ${\umB}_k$ with Algorithm 2 in our paper.
+   -  $\uvx_{k+1} \leftarrow {\mathrm{prox}}_{\alpha_k \,h+\iota_\mathcal C} }^{{\umB}_k}{#3}\big({\uvx}_k-\stepsize_k\,{\umH}_k\nabla f({\uvx}_k)\big)$ 
+</tr>
+</table>
