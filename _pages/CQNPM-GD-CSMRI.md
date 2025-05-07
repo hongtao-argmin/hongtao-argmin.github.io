@@ -109,6 +109,6 @@ MathJax = {
 
 <div style="border: 8px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
 $$
-\boldsymbol{\mathrm{x}} = \arg\min_{\uvx} \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
+\boldsymbol{\mathrm{x}} = \arg\min_{x} \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
 $$
 </div>
