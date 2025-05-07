@@ -86,17 +86,8 @@ permalink: /CQNPM-GD-CSMRI/
 
 
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;" style="text-align: center;">
-
-We solve the following:
-
+<div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
 $$
-\min_x \|Ax - b\|_2^2 + \lambda \|x\|_1
-$$
-
-The solution satisfies:
-
-$$
-x = \operatorname{prox}_{\lambda \|\cdot\|_1}(A^\top b)
+\hat{x} = \arg\min_{x} \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
 $$
 </div>
