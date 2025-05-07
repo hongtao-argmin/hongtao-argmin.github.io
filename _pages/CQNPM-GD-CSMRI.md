@@ -10,12 +10,11 @@ MathJax = {
   tex: {
     macros: {
     bm: ["\boldsymbol{#1}", 1],
-    uva: "\bm{\mathrm{a}}",
-    uva: "\bm{\mathrm{a}}"
+    uva: "\boldsymbol{\mathrm{a}}",
+    uva: "\boldsymbol{\mathrm{a}}",
+    uvx: "\boldsymbol{\mathrm{x}}"
     
-    R: "\\mathbb{R}",
-    prox: "\\operatorname{prox}",
-    norm: ["\\left\\lVert #1 \\right\\rVert", 1]
+
     }
   }
 };
@@ -108,8 +107,8 @@ MathJax = {
 
 
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
+<div style="border: 8px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
 $$
-\boldsymbol{\mathrm{x}} = \arg\min_{x} \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
+\boldsymbol{\mathrm{x}} = \arg\min_{\uvx} \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
 $$
 </div>
