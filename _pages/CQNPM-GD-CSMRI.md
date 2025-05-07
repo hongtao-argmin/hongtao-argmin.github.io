@@ -227,11 +227,19 @@ margin-top: 2em;
   <li>
     <strong> For $k = 1, 2, \ldots$ until convergence</strong>:
     <ul>
-      <li>Estimate $\umH_k \succ 0$ and $\umB_k$ using Algorithm 2 (see paper).</li>
+      <li>Estimate $\umH_k \succ 0$ and $\umB_k\succ 0$ using Algorithm 2 (see paper).</li>
       <li>Update:
      $$
      \uvx_{k+1} \leftarrow \operatorname{prox}^{\umB_k}_{\alpha_k \\, h + \iota_{\mathcal{C}}}
-     \left( \uvx_k - \alpha_k \, \umH_k \, \nabla_{\uvx} f_{\boldsymbol \theta}(\uvx_k) \right)
+     \left( \uvx_k - \alpha_k \, \umH_k \, \nabla_{\uvx} f_{\boldsymbol \theta}(\uvx_k) \right),
+     $$
+     where 
+     $$
+     \iota_{\mathcal C}(\uvx) =
+ \begin{cases}
+    0, & \text{if } \uvx \in \mathcal{C}, \\
+    +\infty, & \text{otherwise}.
+\end{cases}
      $$
       </li>
     </ul>
