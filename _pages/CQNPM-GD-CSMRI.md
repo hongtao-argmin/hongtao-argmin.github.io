@@ -9,6 +9,7 @@ permalink: /CQNPM-GD-CSMRI/
 
 <div style="text-align: center;" class="big-title">
 
+  <div style="display: inline-block; margin: 0 1em;">
   <a href="https://hongtao-argmin.github.io" style="font-size: 1.5em; font-weight: bold;">Tao Hong</a> <br>UT Austin
   </div>
   
