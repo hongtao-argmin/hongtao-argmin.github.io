@@ -48,17 +48,12 @@ permalink: /CQNPM-GD-CSMRI/
     <i class="fas fa-arrow-up-right-from-square"></i> arXiv
   </a>
 
-  <a href="yourpdf.pdf" class="button-pill">
-    <i class="fas fa-file-pdf"></i> Full res paper (341Mb)
-  </a>
 
-  <a href="https://github.com" class="button-pill">
+  <a href="https://github.com/hongtao-argmin/CQNPM-GDD-CS-MRI-Reco?tab=readme-ov-file" class="button-pill">
     <i class="fab fa-github"></i> Code
   </a>
 
-  <a href="#" class="button-pill">
-    <i class="fas fa-robot"></i> HF demo (soon)
-  </a>
+
 
 </div>
 
