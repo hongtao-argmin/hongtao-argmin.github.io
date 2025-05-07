@@ -79,7 +79,7 @@ MathJax = {
 
 
 
-<h1 style="text-align: center;" class="big-title">Convergent Complex Quasi-Newton Proximal Methods <br> for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</h1>
+<h1 style="text-align: center; font-size: 2.8em;" class="big-title">Convergent Complex Quasi-Newton Proximal Methods <br> for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</h1>
 
 <div style="text-align: center;" class="big-title">
 
@@ -128,7 +128,7 @@ MathJax = {
   </a>
 
 
-  <a href="https://www.dropbox.com/scl/fi/n2mjgmpvch1l9obhuzc23/SM_CQNPMGDenoiser.pdf?rlkey=ujwr3rgswoc3kwofdaofr839r&st=cuosyo9g&dl=0" class="button-pill">
+  <a href="https://www.dropbox.com/scl/fi/989xih55oojfo3grxa5d3/SM_CQNPMGDenoiser..pdf?rlkey=yujwhnxqmkd1ox5q4lou8b6yv&st=nvoel074&dl=0" class="button-pill">
     <i class="fas fa-arrow-up-right-from-square"></i>  Supp
   </a>
 
@@ -164,7 +164,7 @@ MathJax = {
 <h2 style="margin-top: 0; font-size: 2.4em;">Results</h2>
 
 
-<img src="/assets/images/result1.png" alt="Result 1" style="width: 100%; margin-top: 1em; border-radius: 6px;">
+<img src="/images/CQNPM2025/SpiralBrainPSNR.png" alt="Result 1" style="width: 100%; margin-top: 1em; border-radius: 6px;">
 
 <p style="text-align: center; font-size: 0.9em; color: #333;">Figure 1: Reconstruction result on brain scan dataset.</p>
 
