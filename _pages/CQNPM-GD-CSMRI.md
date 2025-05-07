@@ -87,7 +87,6 @@ permalink: /CQNPM-GD-CSMRI/
 
 
 <div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;" style="text-align: center;">
-## Optimization Problem
 
 We solve the following:
 
