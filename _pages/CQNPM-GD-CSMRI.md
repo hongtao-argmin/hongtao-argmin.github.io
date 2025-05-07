@@ -176,7 +176,7 @@ $$
 <br>
 
 $$
-\uvx = \arg\min_{\uvx} \left\{  \lambda f_{\\boldsymbol \theta}(\uvx) + \\underbrace{\|A\uvx - \uvy\|_2^2}_{h(\uvx)} \right\}
+\uvx = \arg\min_{\uvx}  \lambda f_{\\boldsymbol \theta}(\uvx) + \underbrace{\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
 $$
 
 </div>
