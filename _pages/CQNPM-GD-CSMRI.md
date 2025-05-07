@@ -273,10 +273,10 @@ margin-top: 2em;
 
 
 
-<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.2em; text-align: justify;">
+<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.5em; text-align: justify;">
 
 
-<h2 style="margin-top: 0; font-size: 1.8em; text-align: left;">BibTeX citation</h2>
+<h2 style="margin-top: 0; font-size: 2em; text-align: left;">BibTeX citation</h2>
 
 @article{tao2025CQNPMCSMRI,
   title={Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction},
