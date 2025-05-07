@@ -87,7 +87,5 @@ permalink: /CQNPM-GD-CSMRI/
 
 
 <div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
-$$
-\\hat{x} = \\arg\\min_{x} \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
-$$
+
 </div>
