@@ -65,7 +65,8 @@ MathJax = {
     umZ: "\\boldsymbol{\\mathrm{Z}}",
     
     inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
     
 
     }
