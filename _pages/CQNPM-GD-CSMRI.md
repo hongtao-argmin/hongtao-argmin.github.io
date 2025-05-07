@@ -205,7 +205,7 @@ $$
 1. **Initialization**: ${\uvx}_1$ and stepsize $\alpha_k > 0$.
 2. **For \( t = T \) to \( 1 \)**:
    -  Estimate ${\umH}_k\succ 0$ and ${\umB}_k$ with Algorithm 2 (details shown in the paper).
-   -  $\uvx_{k+1} \leftarrow {\mathrm{prox}}_{\alpha_k \,h+\iota_\mathcal C} }^{{\umB}_k}{#3}\big({\uvx}_k-\stepsize_k\,{\umH}_k\nabla f({\uvx}_k)\big)$ 
+   -  ${\uvx}_{k+1} \leftarrow {\mathrm{prox}}_{\alpha_k \,h+\iota_\mathcal C} }^{{\umB}_k}{#3}\big({\uvx}_k-\alpha_k\,{\umH}_k\nabla_{\uvx} f({\uvx}_k)\big)$ 
    </td>
 </tr>
 </table>
