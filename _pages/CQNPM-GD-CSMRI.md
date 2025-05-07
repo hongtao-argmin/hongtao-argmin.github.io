@@ -62,8 +62,8 @@ MathJax = {
     umW: "\\boldsymbol{\\mathrm{W}}",
     umX: "\\boldsymbol{\\mathrm{X}}",
     umY: "\\boldsymbol{\\mathrm{Y}}",
-    umZ: "\\boldsymbol{\\mathrm{Z}}",
-    }
+    umZ: "\\boldsymbol{\\mathrm{Z}}"
+    },
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
     processEscapes: true
