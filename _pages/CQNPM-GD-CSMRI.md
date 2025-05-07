@@ -170,7 +170,7 @@ MathJax = {
 ">
 
 $$
-\\text{Denoiser:} {\umD}_{\\boldsymbol \theta } \equiv \uvx - \nabla_{\uvx} f_{\\boldsymbol \theta} (\uvx)
+\text{Denoiser:} {\umD}_{\\boldsymbol \theta } \equiv \uvx - \nabla_{\uvx} f_{\\boldsymbol \theta} (\uvx)
 $$
 
 <br>
