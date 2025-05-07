@@ -200,7 +200,7 @@ demonstrate the effectiveness and efficiency of our approach.
 
 <img src="/images/CQNPM2025/SpiralBrainConv.png" alt="Conv. Validation" style="width: 100%; margin-top: 2em; border-radius: 6px;">
 
-<p style="text-align: center; font-size: 1.3em; color: #333;"> Figure 3: $F(\uvx_k)$: cost value;  $E(\uvx_k)=\|\uvx_k-\uvx_{k+1}\|_2^2$. </p>
+<p style="text-align: center; font-size: 1.3em; color: #333;"> Figure 3: Convergence results. (a) $F(\uvx_k)$: cost value;  (b) $E(\uvx_k)=\|\uvx_k-\uvx_{k+1}\|_2^2$. </p>
 
 </div>
 
