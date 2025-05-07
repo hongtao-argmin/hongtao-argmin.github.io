@@ -62,8 +62,10 @@ MathJax = {
     umW: "\\boldsymbol{\\mathrm{W}}",
     umX: "\\boldsymbol{\\mathrm{X}}",
     umY: "\\boldsymbol{\\mathrm{Y}}",
-    umZ: "\\boldsymbol{\\mathrm{Z}}"
+    umZ: "\\boldsymbol{\\mathrm{Z}}",
     
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
     
 
     }
@@ -72,15 +74,6 @@ MathJax = {
 </script>
 
 
-<!-- MathJax CDN (place at top of the markdown page) -->
-<script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']]
-  }
-};
-</script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
