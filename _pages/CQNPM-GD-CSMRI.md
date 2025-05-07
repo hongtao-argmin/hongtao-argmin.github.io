@@ -9,7 +9,7 @@ permalink: /CQNPM-GD-CSMRI/
 MathJax = {
   tex: {
     macros: {
-    bm: ["\\boldsymbol{#1}", 1]
+    bm: ["\boldsymbol{#1}", 1],
     uva: "\bm{\mathrm{a}}",
     uva: "\bm{\mathrm{a}}"
     
