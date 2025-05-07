@@ -159,7 +159,8 @@ MathJax = {
 
 <div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto;">
 
-## Abstract
+
+<h2 style="margin-top: 0;">Abstract</h2>
 
 In compressed sensing (CS) MRI, model-based methods are pivotal to achieving accurate reconstruction. One of the main challenges in model-based methods is finding an effective prior to describe the statistical distribution of the target image. Plug-and-Play (PnP) and REgularization by Denoising (RED) are two general frameworks that use denoisers as the prior. While PnP/RED methods with convolutional neural networks (CNNs) based denoisers outperform classical hand-crafted priors in CS MRI, their convergence theory relies on assumptions that do not hold for practical CNNs. The recently developed gradient-driven denoisers offer a framework that bridges the gap between practical performance and theoretical guarantees. However, the numerical solvers for the associated minimization problem remain slow for CS MRI reconstruction. This paper proposes a complex quasi-Newton proximal method that achieves faster convergence than existing approaches. To address the complex domain in CS MRI, we propose a modified Hessian estimation method that guarantees Hermitian positive definiteness. Furthermore, we provide a rigorous convergence analysis of the proposed method
 for nonconvex settings. Numerical experiments on both Cartesian and non-Cartesian sampling trajectories
@@ -197,16 +198,16 @@ $$
 
 
 
-
 <div style="background-color: #e8f0fe; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto;">
 
-## CQNPM: Reconstruction Algorithm
+<h2 style="margin-top: 0;">CQNPM: Reconstruction Algorithm</h2>
+
 
 <table style="width: 100%; margin-top: 1em;">
 <tr>
 <td style="width: 80%; vertical-align: top; padding-right: 1em;">
 
-### Algorithm
+  <h3 style="color: #333;">Algorithm</h3>
 
 
 1. **Initialization**: $\\uvx_1$ and stepsize $\\alpha_k > 0$  
@@ -223,6 +224,3 @@ $$
 </table>
 
 </div>
-
-
-
