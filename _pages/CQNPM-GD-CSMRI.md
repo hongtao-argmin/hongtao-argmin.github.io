@@ -158,6 +158,27 @@ MathJax = {
 </style>
 
 
+<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
+
+
+<h2 style="margin-top: 0; font-size: 2.4em;">Results</h2>
+
+
+<img src="/assets/images/result1.png" alt="Result 1" style="width: 100%; margin-top: 1em; border-radius: 6px;">
+
+<p style="text-align: center; font-size: 0.9em; color: #333;">Figure 1: Reconstruction result on brain scan dataset.</p>
+
+<img src="/assets/images/result2.png" alt="Result 2" style="width: 100%; margin-top: 2em; border-radius: 6px;">
+
+<p style="text-align: center; font-size: 0.9em; color: #333;">Figure 2: Comparison with baseline methods.</p>
+
+</div>
+
+
+
+</div>
+
+
 
 
 <div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
@@ -171,10 +192,6 @@ demonstrate the effectiveness and efficiency of our approach.
 
 </div>
 
-
-
-
-
 <div style="
   border: 1px solid #ccc;
   padding: 1em;
@@ -186,7 +203,7 @@ demonstrate the effectiveness and efficiency of our approach.
   text-align: center;
   margin-top: 2em;
 ">
-
+<h2 style="margin-top: 0; font-size: 2.4 em;"> Problem </h2>
 $$
 \text{Denoiser:} \,\, {\umD}_{\boldsymbol \theta } \equiv \uvx - \nabla_{\uvx} f_{\boldsymbol \theta} (\uvx)
 $$
@@ -198,7 +215,6 @@ $$
 $$
 
 </div>
-
 
 
 
