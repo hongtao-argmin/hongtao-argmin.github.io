@@ -158,6 +158,7 @@ MathJax = {
 </style>
 
 
+
 <div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
 
 
@@ -176,10 +177,6 @@ MathJax = {
 
 
 
-</div>
-
-
-
 <div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
 
 
@@ -190,6 +187,7 @@ for nonconvex settings. Numerical experiments on both Cartesian and non-Cartesia
 demonstrate the effectiveness and efficiency of our approach.
 
 </div>
+
 
 <div style="
   border: 1px solid #ccc;
