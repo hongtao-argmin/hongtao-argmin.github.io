@@ -71,10 +71,21 @@ MathJax = {
 };
 </script>
 
+
 <!-- MathJax CDN (place at top of the markdown page) -->
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  }
+};
+</script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 
 
 <h1 style="text-align: center;" class="big-title">Convergent Complex Quasi-Newton Proximal Methods <br> for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</h1>
@@ -220,10 +231,10 @@ margin-top: 2em;
 <h3 style="color: #333; font-size: 1.8em;">Algorithm</h3>
 
 <ol>
-  <li><strong>Initialization</strong>: $\uvx_1$ and stepsize $\alpha_k > 0$</li>
+  <li><strong>Initialization</strong>: $\uvx_1$ and stepsize $\alpha_k > 0$ </li>
 
   <li>
-    <strong>For $k = 1, 2, \ldots$ until convergence</strong>:
+    <strong> For $k = 1, 2, \ldots$ until convergence</strong>:
     <ul>
       <li>Estimate $\umH_k \succ 0$ and $\umB_k$ using Algorithm 2 (see paper).</li>
       <li>Update:
