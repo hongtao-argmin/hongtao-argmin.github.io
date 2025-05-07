@@ -54,7 +54,7 @@ permalink: /CQNPM-GD-CSMRI/
   </a>
 
 
-  <a href="https://www.dropbox.com/scl/fi/n2mjgmpvch1l9obhuzc23/SM_SOGDenoiser.pdf?rlkey=ujwr3rgswoc3kwofdaofr839r&st=eieolhaj&dl=0" class="button-pill">
+  <a href="https://www.dropbox.com/scl/fi/n2mjgmpvch1l9obhuzc23/SM_CQNPMGDenoiser.pdf?rlkey=ujwr3rgswoc3kwofdaofr839r&st=cuosyo9g&dl=0" class="button-pill">
     <i class="fab fa-github"></i> Supp
   </a>
 
