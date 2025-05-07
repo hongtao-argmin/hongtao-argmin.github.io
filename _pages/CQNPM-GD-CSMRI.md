@@ -159,7 +159,7 @@ MathJax = {
 
 
 
-<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; font-size: 1.4em;">
+<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; font-size: 1.4em; text-align: justify;">
 
 
 <h2 style="margin-top: 0; font-size: 2.4em;">Abstract</h2>
@@ -201,7 +201,7 @@ $$
 
 
 
-<div style="background-color: #e8f0fe; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; font-size: 1.4em;">
+<div style="background-color: #e8f0fe; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; font-size: 1.4em; text-align: justify;">
 
 <h2 style="margin-top: 0; font-size: 2.4em;">CQNPM: Reconstruction Algorithm</h2>
 
