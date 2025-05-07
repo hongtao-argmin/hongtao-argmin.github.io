@@ -192,7 +192,7 @@ $$
 <br>
 
 $$
-{\uvx}^* = \arg\min_{\uvx}  f_{\boldsymbol \theta}(\uvx) + \underbrace{\frac{1}{2}\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
+{\uvx}^* = \arg\min_{\uvx\in\mathcal C}  f_{\boldsymbol \theta}(\uvx) + \underbrace{\frac{1}{2}\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
 $$
 
 </div>
@@ -222,7 +222,7 @@ $$
       <li>Update:
      $$
      \uvx_{k+1} \leftarrow \operatorname{prox}^{\umB_k}_{\alpha_k \\, h + \iota_{\mathcal{C}}}
-     \left( \uvx_k - \alpha_k \, \umH_k \, \nabla_{\uvx} f(\uvx_k) \right)
+     \left( \uvx_k - \alpha_k \, \umH_k \, \nabla_{\uvx} f_{\boldsymbol \theta}(\uvx_k) \right)
      $$
       </li>
     </ul>
