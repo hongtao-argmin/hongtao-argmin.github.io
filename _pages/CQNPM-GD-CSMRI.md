@@ -211,7 +211,7 @@ margin-top: 2em;
 "> 
 <!--text-align: justify; -->
 
-<h2 style="margin-top: 0; font-size: 2.4em;">CQNPM: Reconstruction Algorithm</h2>
+<h2 style="margin-top: 0; font-size: 2em;">CQNPM: Reconstruction Algorithm</h2>
 
 <table style="width: 100%; margin-top: 1em;">
 <tr>
