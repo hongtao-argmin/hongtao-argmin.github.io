@@ -230,7 +230,7 @@ margin-top: 2em;
       <li>Estimate $\umH_k \succ 0$ and $\umB_k\succ 0$ using Algorithm 2 (see paper).</li>
       <li>Update:
      $$
-     \uvx_{k+1} \leftarrow \operatorname{prox}^{\umB_k}_{\alpha_k \\, h + \iota_{\mathcal{C}}}
+     \uvx_{k+1} \leftarrow \operatorname{prox}^{\umB_k}_{\alpha_k \, h + \iota_{\mathcal{C}}}
      \left( \uvx_k - \alpha_k \, \umH_k \, \nabla_{\uvx} f_{\boldsymbol \theta}(\uvx_k) \right),
      $$
      where 
