@@ -86,6 +86,7 @@ permalink: /CQNPM-GD-CSMRI/
 
 
 ## Optimization Problem
+<div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9;">
 
 We solve the following:
 
@@ -98,3 +99,4 @@ The solution satisfies:
 $$
 x = \operatorname{prox}_{\lambda \|\cdot\|_1}(A^\top b)
 $$
+</div>
