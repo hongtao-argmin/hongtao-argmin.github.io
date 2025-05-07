@@ -158,13 +158,26 @@ MathJax = {
 
 
 
-<div style="border: 1px solid #ccc; padding: 1em; border-radius: 5px; background-color: #f9f9f9; font-size: 1.5em;" >
+<div style="
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-size: 1.4em;
+  max-width: 400px;
+  margin: 2em auto;
+  text-align: center;
+">
 
 $$
-\umD_{{\mathsymbol{\theta}} = \equiv \uvx -\nabla_{\uvx} f_{\mathsymbol{\theta}}(\uvx) 
+\mathbf{D}_{{\boldsymbol{\theta}}} \equiv \uvx - \nabla_{\uvx} f_{\boldsymbol{\theta}}(\uvx)
 $$
 
+<br>
+
 $$
-\uvx = \arg\min_{\uvx} \left\{ \|Ax - b\|_2^2 + \lambda f_{\mathsymbol{\theta}}(\uvx) \right\}
+\uvx = \arg\min_{\uvx} \left\{ \|A\uvx - \uvy\|_2^2 + \lambda f_{\boldsymbol{\theta}}(\uvx) \right\}
 $$
+
 </div>
+
