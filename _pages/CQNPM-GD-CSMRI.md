@@ -5,7 +5,7 @@ permalink: /CQNPM-GD-CSMRI/
 ---
 
 
-<h1 style="text-align: center;" class="big-title">Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</h1>
+<h1 style="text-align: center;" class="big-title">Convergent Complex Quasi-Newton Proximal Methods <br> for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</h1>
 
 <div style="text-align: center;" class="big-title">
 
