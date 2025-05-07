@@ -159,19 +159,21 @@ MathJax = {
 
 
 
-<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
+<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 12px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
 
 
 <h2 style="margin-top: 0; font-size: 2.4em;">Results</h2>
 
 
-<img src="/images/CQNPM2025/SpiralBrainPSNR.png" alt="Comparison of cost and PSNR versus iterationa and wall time on spiral brain image" style="width: 45%; margin-top: 1em; border-radius: 6px;">
+<img src="/images/CQNPM2025/SpiralBrainPSNR.png" alt="Comparison of cost and PSNR versus iterationa and wall time on spiral brain image" style="width: 100%; margin-top: 1em; border-radius: 6px;">
 
 <p style="text-align: center; font-size: 0.9em; color: #333;">Figure 1: Cost and PSNR versus Iter. and Wall Time.</p>
 
-<img src="/images/CQNPM2025/SpiralBrainRecoIm.png" alt="Comparison of Reco. Images for various methods" style="width: 45%; margin-top: 2em; border-radius: 6px;">
+
+<img src="/images/CQNPM2025/SpiralBrainRecoIm.png" alt="Comparison of Reco. Images for various methods" style="width: 100%; margin-top: 2em; border-radius: 6px;">
 
 <p style="text-align: center; font-size: 0.9em; color: #333;">Figure 2: Reconstructed Images.</p>
+
 
 </div>
 
