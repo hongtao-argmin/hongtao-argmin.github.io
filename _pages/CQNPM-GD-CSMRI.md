@@ -215,10 +215,11 @@ demonstrate the effectiveness and efficiency of our approach.
   font-size: 1.4em;
   max-width: 400px;
   margin: 2em auto;
-  text-align: center;
+  text-align: left; <!-- center -->
   margin-top: 2em;
 ">
 <h2 style="margin-top: 0; font-size: 2.4 em; text-align: left;"> Problem </h2>
+
 $$
 \text{Denoiser:} \,\, {\umD}_{\boldsymbol \theta } \equiv \uvx - \nabla_{\uvx} f_{\boldsymbol \theta} (\uvx)
 $$
