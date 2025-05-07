@@ -4,6 +4,29 @@ title: Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Deno
 permalink: /CQNPM-GD-CSMRI/
 ---
 
+
+---
+layout: default
+title: My Page
+permalink: /mypage/
+---
+
+<!-- MathJax config with macros -->
+<script>
+MathJax = {
+  tex: {
+    macros: {
+    uva: "\bm{\mathrm{a}}",
+    uva: "\bm{\mathrm{a}}"
+    
+    R: "\\mathbb{R}",
+    prox: "\\operatorname{prox}",
+    norm: ["\\left\\lVert #1 \\right\\rVert", 1]
+    }
+  }
+};
+</script>
+
 <!-- MathJax CDN (place at top of the markdown page) -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async
