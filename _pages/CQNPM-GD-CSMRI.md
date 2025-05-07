@@ -159,7 +159,17 @@ MathJax = {
 
 
 
-<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
+
+<div style="
+  background-color: #e5e5e8;
+  padding: 1em;                  /* ↓ reduce padding */
+  border-radius: 6px;
+  max-width: 1000px;            /* ↑ increase width */
+  margin: 2em auto;
+  font-size: 1.4em;             /* ↓ slightly reduce font size */
+  line-height: 1.4;             /* ↓ tighten line spacing */
+  text-align: justify;
+">
 
 
 <h2 style="margin-top: 0; font-size: 2.4em; text-align: left;">Abstract</h2>
