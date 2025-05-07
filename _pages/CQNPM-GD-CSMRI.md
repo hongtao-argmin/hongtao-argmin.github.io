@@ -63,13 +63,10 @@ MathJax = {
     umX: "\\boldsymbol{\\mathrm{X}}",
     umY: "\\boldsymbol{\\mathrm{Y}}",
     umZ: "\\boldsymbol{\\mathrm{Z}}",
-    
+    }
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
     processEscapes: true
-    
-
-    }
   }
 };
 </script>
