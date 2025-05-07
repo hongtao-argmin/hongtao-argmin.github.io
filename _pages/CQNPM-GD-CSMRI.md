@@ -159,7 +159,20 @@ MathJax = {
 
 
 
-<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1600px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
+<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
+
+
+<h2 style="margin-top: 0; font-size: 2.4em; text-align: left;">Abstract</h2>
+
+In compressed sensing (CS) MRI, model-based methods are pivotal to achieving accurate reconstruction. One of the main challenges in model-based methods is finding an effective prior to describe the statistical distribution of the target image. Plug-and-Play (PnP) and REgularization by Denoising (RED) are two general frameworks that use denoisers as the prior. While PnP/RED methods with convolutional neural networks (CNNs) based denoisers outperform classical hand-crafted priors in CS MRI, their convergence theory relies on assumptions that do not hold for practical CNNs. The recently developed gradient-driven denoisers offer a framework that bridges the gap between practical performance and theoretical guarantees. However, the numerical solvers for the associated minimization problem remain slow for CS MRI reconstruction. This paper proposes a complex quasi-Newton proximal method (CQNPM) that achieves faster convergence than existing approaches. To address the complex domain in CS MRI, we propose a modified Hessian estimation method that guarantees Hermitian positive definiteness. Furthermore, we provide a rigorous convergence analysis of the proposed method
+for nonconvex settings. Numerical experiments on both Cartesian and non-Cartesian sampling trajectories
+demonstrate the effectiveness and efficiency of our approach.
+
+</div>
+
+
+
+<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1000px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
 
 
 <h2 style="margin-top: 0; font-size: 2.4em;">Results</h2>
@@ -178,17 +191,6 @@ MathJax = {
 </div>
 
 
-
-<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 800px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
-
-
-<h2 style="margin-top: 0; font-size: 2.4em; text-align: left;">Abstract</h2>
-
-In compressed sensing (CS) MRI, model-based methods are pivotal to achieving accurate reconstruction. One of the main challenges in model-based methods is finding an effective prior to describe the statistical distribution of the target image. Plug-and-Play (PnP) and REgularization by Denoising (RED) are two general frameworks that use denoisers as the prior. While PnP/RED methods with convolutional neural networks (CNNs) based denoisers outperform classical hand-crafted priors in CS MRI, their convergence theory relies on assumptions that do not hold for practical CNNs. The recently developed gradient-driven denoisers offer a framework that bridges the gap between practical performance and theoretical guarantees. However, the numerical solvers for the associated minimization problem remain slow for CS MRI reconstruction. This paper proposes a complex quasi-Newton proximal method (CQNPM) that achieves faster convergence than existing approaches. To address the complex domain in CS MRI, we propose a modified Hessian estimation method that guarantees Hermitian positive definiteness. Furthermore, we provide a rigorous convergence analysis of the proposed method
-for nonconvex settings. Numerical experiments on both Cartesian and non-Cartesian sampling trajectories
-demonstrate the effectiveness and efficiency of our approach.
-
-</div>
 
 
 <div style="
@@ -266,3 +268,17 @@ margin-top: 2em;
 </table>
 
 </div>
+
+
+
+### BibTeX citation
+
+```bibtex
+@article{tao2025CQNPMCSMRI,
+  title={Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction},
+  author={Hong, Tao and Xu, Zhaoyi and Chun, Se Young and Hernandez-Garcia, Luis and Fessler, Jeffrey A},
+  year={2025},
+  journal={},
+  url={},
+}
+
