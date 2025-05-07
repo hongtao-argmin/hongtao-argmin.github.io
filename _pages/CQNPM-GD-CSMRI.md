@@ -12,7 +12,7 @@ MathJax = {
     bm: ["\boldsymbol{#1}", 1],
     uva: "\boldsymbol{\mathrm{a}}",
     uva: "\boldsymbol{\mathrm{a}}",
-    uvx: "\boldsymbol{\mathrm{x}}"
+    uvx: "\\boldsymbol{\\mathrm{x}}"
     
 
     }
@@ -109,6 +109,6 @@ MathJax = {
 
 <div style="border: 1px solid #ccc; padding: 1em; border-radius: 6px; background-color: #f9f9f9; font-size: 1.5em;" >
 $$
-\boldsymbol{\mathrm{x}} = \arg\min_{x} \\uvx \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
+\boldsymbol{\mathrm{x}} = \arg\min_{x} \uvx \left\{ \|Ax - b\|_2^2 + \lambda \|x\|_1 \right\}
 $$
 </div>
