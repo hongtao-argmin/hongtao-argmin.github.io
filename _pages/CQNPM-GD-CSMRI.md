@@ -10,23 +10,28 @@ permalink: /CQNPM-GD-CSMRI/
 <div style="text-align: center;" class="big-title">
 
   <div style="display: inline-block; margin: 0 1em;">
-  <a href="https://hongtao-argmin.github.io" style="font-size: 1.5em; font-weight: bold;">Tao Hong</a> <br>UT Austin
-  </div>
+  <a href="https://hongtao-argmin.github.io" style="font-size: 1.5em; font-weight: bold;">Tao Hong</a> <br> 
+  <span style="font-size: 1.2em;">UT Austin</span>
+    </div>
   
   <div style="display: inline-block; margin: 0 1em;">
   <a href="#" style="font-size: 1.5em; font-weight: bold;">Zhaoyi Xu </a> <br>Umich
   </div>
   
   <div style="display: inline-block; margin: 0 1em;">
-  <a href="https://icl.snu.ac.kr" style="font-size: 1.5em; font-weight: bold;">Se Young Chun</a><br>SNU
+  <a href="https://icl.snu.ac.kr" style="font-size: 1.5em; font-weight: bold;">Se Young Chun</a><br>
+  <span style="font-size: 1.2em;">SNU</span>
   </div>
   
   <div style="display: inline-block; margin: 0 1em;">
-  <a href="#" style="font-size: 1.5em; font-weight: bold;">Luis Hernandez-Garcia</a> <br>Umich
+  <a href="#" style="font-size: 1.5em; font-weight: bold;">Luis Hernandez-Garcia</a> <br>
+  <span style="font-size: 1.2em;">Umich</span>
+
   </div>
   
   <div style="display: inline-block; margin: 0 1em;">
- <a href="https://web.eecs.umich.edu/~fessler/" style="font-size: 1.5em; font-weight: bold;">Jeffrey A. Fessler</a><br>Umich
+ <a href="https://web.eecs.umich.edu/~fessler/" style="font-size: 1.5em; font-weight: bold;">Jeffrey A. Fessler</a><br>
+ <span style="font-size: 1.2em;">Umich</span>
   </div>
   
 </div>
