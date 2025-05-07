@@ -198,6 +198,10 @@ demonstrate the effectiveness and efficiency of our approach.
 <p style="text-align: center; font-size: 1.3em; color: #333;">Figure 2: Reconstructed Images.</p>
 
 
+<img src="/images/CQNPM2025/SpiralBrainConv.png" alt="Conv. Validation" style="width: 100%; margin-top: 2em; border-radius: 6px;">
+
+<p style="text-align: center; font-size: 1.3em; color: #333;"> Figure 3: $F(\uvx_k)$: cost value;  $E(\uvx_k)=\|\uvx_k-\uvx_{k+1}\|_2^2$. </p>
+
 </div>
 
 
@@ -222,7 +226,7 @@ $$
 <br>
 
 $$
-{\uvx}^* = \arg\min_{\uvx\in\mathcal C}  f_{\boldsymbol \theta}(\uvx) + \underbrace{\frac{1}{2}\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
+{\uvx}^* = \arg\min_{\uvx\in\mathcal C}  F(\uvx) \equiv f_{\boldsymbol \theta}(\uvx) + \underbrace{\frac{1}{2}\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
 $$
 
 </div>
