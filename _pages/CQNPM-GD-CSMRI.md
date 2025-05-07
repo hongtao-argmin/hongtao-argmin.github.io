@@ -170,13 +170,13 @@ MathJax = {
 ">
 
 $$
-{\umD}_{\\boldsymbol{\theta}} \equiv \uvx - \nabla_{\uvx} f_{\boldsymbol{\theta}}(\uvx)
+{\umD}_{{\\boldsymbol{\theta}}} \equiv \uvx - \nabla_{\uvx} f_{\boldsymbol{\theta}} (\uvx)
 $$
 
 <br>
 
 $$
-\uvx = \arg\min_{\uvx} \left\{ \|A\uvx - \uvy\|_2^2 + \lambda f_{\\boldsymbol{\theta}}(\uvx) \right\}
+\uvx = \arg\min_{\uvx} \left\{ \|A\uvx - \uvy\|_2^2 + \lambda f_{{\\boldsymbol{\theta}}}(\uvx) \right\}
 $$
 
 </div>
