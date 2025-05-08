@@ -227,7 +227,7 @@ $$
 
 
 $$
-{\uvx}^* = \arg\min_{\uvx\in\mathcal C}  F(\uvx) \equiv f_{\boldsymbol \theta}(\uvx) + \underbrace{\frac{1}{2}\|A\uvx - \uvy\|_2^2}_{h(\uvx)} 
+{\uvx}^* = \arg\min_{\uvx\in\mathcal C}  F(\uvx) \equiv f_{\boldsymbol \theta}(\uvx) + \underbrace{\frac{1}{2}\|\umA\uvx - \uvy\|_2^2}_{h(\uvx)} 
 $$
 
 </div>
