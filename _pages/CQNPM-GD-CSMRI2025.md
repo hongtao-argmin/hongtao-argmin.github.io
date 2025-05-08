@@ -276,7 +276,7 @@ margin-top: 2em;
      and
      
      $$
-              \operatorname{prox}^{\umW_k}_{\alpha_k \, h + \iota_{\mathcal{C}}}  \triangleq \arg\min_{\uvx\in\mathcal C}\frac{1}{2}\|\uvx-\cdot \|_{\umW}^2+ \alpha_k h(\uvx),
+              \operatorname{prox}^{\umB_k}_{\alpha_k \, h + \iota_{\mathcal{C}}}(\cdot)  \triangleq \arg\min_{\uvx\in\mathcal C}\frac{1}{2}\|\uvx-\cdot \|_{\umB_k}^2+ \alpha_k h(\uvx),
      $$
       </li>
     </ul>
