@@ -128,7 +128,7 @@ MathJax = {
   </a>
 
 
-  <a href="https://www.dropbox.com/scl/fi/989xih55oojfo3grxa5d3/SM_CQNPMGDenoiser..pdf?rlkey=yujwhnxqmkd1ox5q4lou8b6yv&st=nvoel074&dl=0" class="button-pill">
+  <a href="https://www.dropbox.com/scl/fi/989xih55oojfo3grxa5d3/SM_CQNPMGDenoiser..pdf?rlkey=yujwhnxqmkd1ox5q4lou8b6yv&st=p7i1229w&dl=0" class="button-pill">
     <i class="fas fa-arrow-up-right-from-square"></i>  Supp
   </a>
 
@@ -270,8 +270,13 @@ margin-top: 2em;
      \iota_{\mathcal C}(\uvx) =
  \begin{cases}
     0, & \text{if } \uvx \in \mathcal{C}, \\
-    +\infty, & \text{otherwise}.
+    +\infty, & \text{otherwise},
 \end{cases}
+     $$
+     and
+     
+     $$
+              \operatorname{prox}^{\umW_k}_{\alpha_k \, h + \iota_{\mathcal{C}}}  \triangleq \arg\min_{\uvx\in\mathcal C}\frac{1}{2}\|\uvx-\cdot \|_{\umW}^2+ \alpha_k h(\uvx),
      $$
       </li>
     </ul>
