@@ -181,29 +181,13 @@ demonstrate the effectiveness and efficiency of our approach.
 </div>
 
 
+<div style="display: flex; justify-content: space-between; background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1000px; margin: 0 auto; margin-top: 2em;">
 
-<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1000px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
+  <img src="files/BrainSpiralPSNR2025.gif" width="400"/>
 
-
-<h2 style="margin-top: 0; font-size: 2.4em;">Results</h2>
-
-
-<img src="/images/CQNPM2025/SpiralBrainPSNR.png" alt="Comparison of cost and PSNR versus iterationa and wall time on spiral brain image" style="width: 100%; margin-top: 1em; border-radius: 6px;">
-
-<p style="text-align: center; font-size: 1.3em; color: #333;">Figure 1: Cost and PSNR versus Iter. and Wall Time. GD: projected gradient descent; PG: proximal gradient; APG: accelerated proximal gradient.</p>
-
-
-<img src="/images/CQNPM2025/SpiralBrainRecoIm.png" alt="Comparison of Reco. Images for various methods" style="width: 100%; margin-top: 2em; border-radius: 6px;">
-
-<p style="text-align: center; font-size: 1.3em; color: #333;">Figure 2: Reconstructed Images.</p>
-
-
-<img src="/images/CQNPM2025/SpiralBrainConv.png" alt="Conv. Validation" style="width: 100%; margin-top: 2em; border-radius: 6px;">
-
-<p style="text-align: center; font-size: 1.3em; color: #333;"> Figure 3: Convergence results. (a) $F(\uvx_k)$: cost value;  (b) $E(\uvx_k)=\|\uvx_k-\uvx_{k+1}\|_2^2$. </p>
+  <img src="files/BrainSpiralRecoIms2025.gif" width="400"/>
 
 </div>
-
 
 
 
@@ -289,6 +273,28 @@ margin-top: 2em;
 
 </div>
 
+
+<div style="background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1000px; margin: 0 auto; margin-top: 2em; font-size: 1.4em; text-align: justify;">
+
+
+<h2 style="margin-top: 0; font-size: 2.4em;">Results</h2>
+
+
+<img src="/images/CQNPM2025/SpiralBrainPSNR.png" alt="Comparison of cost and PSNR versus iterationa and wall time on spiral brain image" style="width: 100%; margin-top: 1em; border-radius: 6px;">
+
+<p style="text-align: center; font-size: 1.3em; color: #333;">Figure 1: Cost and PSNR versus Iter. and Wall Time. GD: projected gradient descent; PG: proximal gradient; APG: accelerated proximal gradient.</p>
+
+
+<img src="/images/CQNPM2025/SpiralBrainRecoIm.png" alt="Comparison of Reco. Images for various methods" style="width: 100%; margin-top: 2em; border-radius: 6px;">
+
+<p style="text-align: center; font-size: 1.3em; color: #333;">Figure 2: Reconstructed Images.</p>
+
+
+<img src="/images/CQNPM2025/SpiralBrainConv.png" alt="Conv. Validation" style="width: 100%; margin-top: 2em; border-radius: 6px;">
+
+<p style="text-align: center; font-size: 1.3em; color: #333;"> Figure 3: Convergence results. (a) $F(\uvx_k)$: cost value;  (b) $E(\uvx_k)=\|\uvx_k-\uvx_{k+1}\|_2^2$. </p>
+
+</div>
 
 
 
