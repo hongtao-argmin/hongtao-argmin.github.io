@@ -165,7 +165,7 @@ MathJax = {
   padding: 1em;                  /* ↓ reduce padding */
   border-radius: 6px;
   max-width: 1000px;            /* ↑ increase width */
-  margin: 2em auto;
+  margin: 1em auto;
   font-size: 1.4em;             /* ↓ slightly reduce font size */
   line-height: 1.4;             /* ↓ tighten line spacing */
   text-align: justify;
@@ -183,9 +183,9 @@ demonstrate the effectiveness and efficiency of our approach.
 
 <div style="display: flex; justify-content: space-between; background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1000px; margin: 0 auto; margin-top: 2em;">
 
-  <img src="files/BrainSpiralPSNR2025.gif" width="400"/>
+  <img src="/files/BrainSpiralPSNR2025.gif" width="400"/>
 
-  <img src="files/BrainSpiralRecoIms2025.gif" width="400"/>
+  <img src="/files/BrainSpiralRecoIms2025.gif" width="400"/>
 
 </div>
 
