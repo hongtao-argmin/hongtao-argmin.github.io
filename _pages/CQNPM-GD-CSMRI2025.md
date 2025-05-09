@@ -190,7 +190,7 @@ demonstrate the effectiveness and efficiency of our approach.
 
 <img src="/images/CQNPM2025/SpiralBrainPSNR.png" alt="Comparison of cost and PSNR versus iterationa and wall time on spiral brain image" style="width: 100%; margin-top: 1em; border-radius: 6px;">
 
-<p style="text-align: center; font-size: 1.3em; color: #333;">Figure 1: Cost and PSNR versus Iter. and Wall Time. GD: projected gradient descent; PG: proximal gradient; APG: accelerated proximal gradient</p>
+<p style="text-align: center; font-size: 1.3em; color: #333;">Figure 1: Cost and PSNR versus Iter. and Wall Time. GD: projected gradient descent; PG: proximal gradient; APG: accelerated proximal gradient.</p>
 
 
 <img src="/images/CQNPM2025/SpiralBrainRecoIm.png" alt="Comparison of Reco. Images for various methods" style="width: 100%; margin-top: 2em; border-radius: 6px;">
