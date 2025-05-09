@@ -118,7 +118,7 @@ MathJax = {
 <!-- Button container -->
 <div style="text-align: center; margin-top: 1em;">
 
-  <a href="https://arxiv.org" class="button-pill">
+  <a href="https://arxiv.org/abs/2505.04820" class="button-pill">
     <i class="fas fa-arrow-up-right-from-square"></i> arXiv
   </a>
 
@@ -298,12 +298,12 @@ margin-top: 2em;
 
 <h2 style="margin-top: 0; font-size: 2em; text-align: left;">BibTeX citation</h2>
 
-@article{tao2025CQNPMCSMRI, <br>
+@article{hong2025CQNPMCSMRI, <br>
   title={Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction},<br>
   author={Hong, Tao and Xu, Zhaoyi and Chun, Se Young and Hernandez-Garcia, Luis and Fessler, Jeffrey A},<br>
   year={2025},<br>
-  journal={},<br>
-  url={},<br>
+  journal={arXiv:2505.04820},<br>
+  url={https://arxiv.org/abs/2505.04820},<br>
 }
 
 
