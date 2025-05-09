@@ -181,7 +181,7 @@ demonstrate the effectiveness and efficiency of our approach.
 </div>
 
 
-<div style="display: flex; justify-content: space-between; background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1000px; margin: 0 auto; margin-top: 2em;">
+<div style="display: flex; gap: 0.5em; justify-content: center; background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1000px; margin: 0 auto; margin-top: 2em;">
 
   <img src="/files/BrainSpiralPSNR2025.gif" width="600"/>
 
