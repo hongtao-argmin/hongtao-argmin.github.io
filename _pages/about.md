@@ -151,7 +151,8 @@ My research interests include:
 ## 2025
 
 <div style="margin-bottom: 1em;  font-size: 1em;">
-  <span style="font-size: 1.2em;">📅 <strong>May 08, 2025</strong></span><br>
+  <span style="font-size: 1.2em;"><img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/calendar-may-8-icon.svg" alt="May 9 Calendar Icon" style="height: 32px; vertical-align: middle;">
+ <strong>May 08, 2025</strong></span><br>
   Our latest work  
   <a href="https://hongtao-argmin.github.io/CQNPM-GD-CSMRI/" target="_blank"> <em>Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction </em> </a> is now online! Many thanks to all collaborators.
 </div>
