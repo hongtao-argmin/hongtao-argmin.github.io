@@ -151,26 +151,26 @@ My research interests include:
 ## 2025
 
 <div style="margin-bottom: 1em;  font-size: 1em;">
-  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 35px; vertical-align: middle;">  <strong> May 8, 2025</strong></span><br>
+  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">  <strong> May 8, 2025</strong></span><br>
   Our latest work  
   <a href="https://hongtao-argmin.github.io/CQNPM-GD-CSMRI/" target="_blank"> <em>Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction </em> </a> is now online! Many thanks to all collaborators.
 </div>
 
 ## 2024
 <div style="margin-bottom: 1em;  font-size: 1em;">
-  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 35px; vertical-align: middle;">   <strong>Nov 12, 2024</strong></span><br>
+  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">   <strong>Nov 12, 2024</strong></span><br>
   Our work  
   <a href="https://arxiv.org/abs/2411.08178" target="_blank"> <em>On Adapting Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction </em> </a> is now online! Many thanks to all collaborators.
 </div>
 
 <div style="margin-bottom: 1em;  font-size: 1em;">
-  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 35px; vertical-align: middle;">   <strong>Oct 1, 2024</strong></span><br>
+  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">   <strong>Oct 1, 2024</strong></span><br>
   Our work  
   <a href="https://ieeexplore.ieee.org/document/10711213" target="_blank"> <em>Provable Preconditioned Plug-and-Play Approach for Compressed Sensing MRI Reconstruction </em> </a>  was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. (<a href="  https://www.dropbox.com/scl/fi/zhx9pfedqca8zoxpj0l82/2024_Tao_PPnP_CSMRI_Poster.pdf?rlkey=1ba6d1jgaj8k0wjcruusn0gj6&dl=0"><span style="color: #ff0000;">Poster</span></a>) (<a href="https://www.dropbox.com/scl/fi/zwhwogo93nzzyrmctf020/PPnP_Tao.pdf?rlkey=im0m2o5b0jj23mmjvrqi0hyho&dl=0"><span style="color: #ff0000;">Slides</span></a>) (<a href="https://arxiv.org/pdf/2405.03854"><span style="color: #ff0000;">PDF</span></a>)
 </div>
 
 <div style="margin-bottom: 3em;  font-size: 1em;">
-  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 35px; vertical-align: middle;">   <strong>Jan 26, 2024</strong></span><br>
+  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">   <strong>Jan 26, 2024</strong></span><br>
   Our work  
   <a href="https://ieeexplore.ieee.org/document/10444063" target="_blank"> <em>A Complex Quasi-Newton Proximal Method for Image Reconstruction in Compressed Sensing MRI</em> </a> was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. (<a href="https://hongtao-argmin.github.io/files/AccNes-CQNPM-MRI.pdf"><span style="color: #ff0000;">Slides</span></a>) (<a href="https://github.com/hongtao-argmin/CQNPCS_MRIReco"><span style="color: #ff0000;">Code</span></a>) (<a href="https://arxiv.org/pdf/2303.02586"><span style="color: #ff0000;">PDF</span></a>)
 </div>
