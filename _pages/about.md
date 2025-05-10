@@ -151,7 +151,7 @@ My research interests include:
 ## 2025
 
 <div style="margin-bottom: 1em;  font-size: 1em;">
-  <span style="font-size: 1.2em;"> <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/calendar-may-8-icon.svg" alt="May 9 Calendar Icon" style="height: 32px; vertical-align: middle;">  <strong> May 08, 2025</strong></span><br>
+  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" alt="May 9 Calendar Icon" style="height: 32px; vertical-align: middle;">  <strong> May 8, 2025</strong></span><br>
   Our latest work  
   <a href="https://hongtao-argmin.github.io/CQNPM-GD-CSMRI/" target="_blank"> <em>Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction </em> </a> is now online! Many thanks to all collaborators.
 </div>
@@ -164,7 +164,7 @@ My research interests include:
 </div>
 
 <div style="margin-bottom: 1em;  font-size: 1em;">
-  <span style="font-size: 1.2em;">  <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/calendar-oct-1-icon.svg" alt="Oct 1 Calendar Icon" style="height: 32px; vertical-align: middle;"> <strong>Oct 01, 2024</strong></span><br>
+  <span style="font-size: 1.2em;">  <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/calendar-oct-1-icon.svg" alt="Oct 1 Calendar Icon" style="height: 32px; vertical-align: middle;"> <strong>Oct 1, 2024</strong></span><br>
   Our work  
   <a href="https://ieeexplore.ieee.org/document/10711213" target="_blank"> <em>Provable Preconditioned Plug-and-Play Approach for Compressed Sensing MRI Reconstruction </em> </a>  was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. (<a href="  https://www.dropbox.com/scl/fi/zhx9pfedqca8zoxpj0l82/2024_Tao_PPnP_CSMRI_Poster.pdf?rlkey=1ba6d1jgaj8k0wjcruusn0gj6&dl=0"><span style="color: #ff0000;">Poster</span></a>) (<a href="https://www.dropbox.com/scl/fi/zwhwogo93nzzyrmctf020/PPnP_Tao.pdf?rlkey=im0m2o5b0jj23mmjvrqi0hyho&dl=0"><span style="color: #ff0000;">Slides</span></a>) (<a href="https://arxiv.org/pdf/2405.03854"><span style="color: #ff0000;">PDF</span></a>)
 </div>
