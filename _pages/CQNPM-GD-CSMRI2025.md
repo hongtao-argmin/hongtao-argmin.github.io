@@ -183,7 +183,7 @@ demonstrate the effectiveness and efficiency of our approach.
 
 <div style="display: flex; gap: 0.5em; justify-content: center; background-color: #e5e5e8; padding: 1.5em; border-radius: 6px; max-width: 1300px; margin: 0 auto; margin-top: 2em;">
 
-  <img src="/files/BrainSpiralPSNR2025.gif" width="600"/>
+  <img src="/files/BrainSpiralPSNR2025up.gif" width="600"/>
 
   <img src="/files/BrainSpiralRecoIms2025.gif" width="600"/>
 
