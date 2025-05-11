@@ -305,7 +305,7 @@ margin-top: 2em;
 <h2 style="margin-top: 0; font-size: 2em; text-align: left;">BibTeX citation</h2>
 
 @article{hong2025CQNPMCSMRI, <br>
-  title={Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction},<br>
+  title={Convergent Complex Quasi-{N}ewton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing {MRI} Reconstruction},<br>
   author={Hong, Tao and Xu, Zhaoyi and Chun, Se Young and Hernandez-Garcia, Luis and Fessler, Jeffrey A},<br>
   year={2025},<br>
   journal={arXiv:2505.04820},<br>
