@@ -193,11 +193,11 @@ demonstrate the effectiveness and efficiency of our approach.
 
 <div style="
   border: 1px solid #ccc;
-  padding: 1em;
+  padding: 5em;
   border-radius: 8px;
   background-color: #f9f9f9;
   font-size: 1.4em;
-  max-width: 400px;
+  max-width: 500px;
   margin: 2em auto;
   text-align: left; <!-- center -->
   margin-top: 2em;
