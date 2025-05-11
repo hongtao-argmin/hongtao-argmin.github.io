@@ -193,7 +193,7 @@ demonstrate the effectiveness and efficiency of our approach.
 
 <div style="
   border: 1px solid #ccc;
-  padding: 5em;
+  padding: 2em;
   border-radius: 8px;
   background-color: #f9f9f9;
   font-size: 1.4em;
