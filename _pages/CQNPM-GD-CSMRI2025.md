@@ -221,9 +221,9 @@ $$
 background-color: #e8f0fe;
 padding: 1.5em; 
 border-radius: 6px; 
-max-width: 800px; 
+max-width: 1000px; 
 margin: 0 auto; 
-font-size: 1.4em; 
+font-size: 1.5em; 
 margin-top: 2em;
 "> 
 <!--text-align: justify; -->
