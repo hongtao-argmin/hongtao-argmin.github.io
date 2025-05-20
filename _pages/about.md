@@ -153,7 +153,7 @@ My research interests include:
 ## 2025
 
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
-  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">  <strong> May 08</strong></span><br>
+  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 42px; vertical-align: top;">  <strong> May 08</strong></span><br>
   Our latest work  
   <a href="https://hongtao-argmin.github.io/CQNPM-GD-CSMRI/" target="_blank"> <em>Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</em> </a> is now online! Many thanks to all collaborators.
 </div>
