@@ -187,7 +187,7 @@ TX, 78712-1229, USA <br>
 Email: tao + . + lastname@austin.utexas.edu
 
 <a href="https://hongtao-argmin.github.io">
-<img src="/images/IMG_9131.JPG" alt="Trulli" width="700" height="333">
+<img src="/images/IMG_9131.JPG" alt="Trulli" width="800" height="333">
 </a>
 
 <!---
