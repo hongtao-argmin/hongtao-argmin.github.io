@@ -146,7 +146,7 @@ My research interests include:
 <!--<img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/calendar-may-8-icon.svg" alt="May 9 Calendar Icon" style="height: 32px; vertical-align: middle;">-->
 
 
-# News
+# <span style="color:blue;">🔥</span> News
 
 ## 2025
 
