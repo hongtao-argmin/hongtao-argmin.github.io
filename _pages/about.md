@@ -155,7 +155,7 @@ My research interests include:
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
   <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">  <strong> Jun 2 - 6 </strong></span><br>
   Attended ICERM   
-  <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-smlgwa" target="_blank"> <em>Scientific Machine Learning for Gravitational Wave Astronomy</em> </a> workshop.  Many thanks to the organizers. It was a pleasure to learn more about gravitational waves and meet many new colleagues.
+  <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-smlgwa" target="_blank"> <em>Scientific Machine Learning for Gravitational Wave Astronomy</em> </a> workshop at Brown University.  Many thanks to the organizers. It was a pleasure to learn more about gravitational waves and meet many new colleagues.
 </div>
 
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
