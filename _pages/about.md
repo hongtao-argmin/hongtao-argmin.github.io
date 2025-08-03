@@ -137,7 +137,7 @@ My research interests include:
 
 <ul style= "margin-bottom: 5em;">
   <li>Numerical Optimization & Multigrid Computational Methods</li>
-  <li>Deep Learning & Scientific Computing & Compressive Sensing</li>
+  <li>Interpretable/Reliable AI Models & Scientific Computing & Compressive Sensing</li>
   <li>Photoacoustic Computed Tomography and Computational MR Imaging</li>
   <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li>
 </ul>
