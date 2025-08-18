@@ -157,7 +157,34 @@ My research interests include:
 
 ## 2025
 
+<div style="margin-bottom: 1em; font-size: 1em; text-align: justify">
+  <span style="font-size: 1.2em;">
+    <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">
+    <strong>Aug 17</strong>
+  </span><br>
+  Our latest works 
+  <a href="https://arxiv.org/abs/2508.11219" target="_blank"><em>A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction with Gradient-Driven Denoisers</em></a> 
+  (our method reconstructs a clear image within seconds and comes with a well-established convergence analysis) 
+  and 
+  <a href="https://arxiv.org/abs/2307.02043" target="_blank"><em>A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction</em></a> 
+  (we present an efficient mini-batch method for nonlinear inverse problems with rigorous convergence analysis, and propose an approach to estimate approximate Hessian matrices with noisy gradients; experiments on 3D Optical Diffraction Tomography with real data demonstrate the effectiveness of our approach) 
+  are now online! Many thanks to all collaborators.
+</div>
 
+
+
+<div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
+ <span style="font-size: 1.2em;">
+  <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">
+  <strong>Aug 11 - 15</strong>
+</span><br>
+Attended the IPAM 
+<a><em>Randomized Numerical Linear Algebra</em></a> workshop at UCLA.  
+Many thanks to the organizers and our group leaders 
+<a href="https://scholar.google.com/citations?user=Bjpb27sAAAAJ&hl=en" target="_blank"> Sherry Li </a> and 
+<a href="https://scholar.google.com/citations?user=DBMfHw4AAAAJ&hl=en" target="_blank"> Wendy Di </a>.  
+It was a pleasure to learn and meet so many wonderful colleagues.
+</div>
 
 
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
