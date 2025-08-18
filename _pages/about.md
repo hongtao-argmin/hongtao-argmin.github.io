@@ -164,10 +164,10 @@ My research interests include:
   </span><br>
   Our latest works 
   <a href="https://arxiv.org/abs/2508.11219" target="_blank"><em>A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction with Gradient-Driven Denoisers</em></a> 
-  (our method reconstructs a clear image within seconds and comes with a well-established convergence analysis) 
+  (our method can reconstruct a clear image within seconds and comes with a well-established convergence analysis) 
   and 
   <a href="https://arxiv.org/abs/2307.02043" target="_blank"><em>A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction</em></a> 
-  (we present an efficient mini-batch method for nonlinear inverse problems with rigorous convergence analysis, and propose an approach to estimate approximate Hessian matrices with noisy gradients; experiments on 3D Optical Diffraction Tomography with real data demonstrate the effectiveness of our approach) 
+  (we present an approach to estimate approximate Hessian matrices with noisy gradients; experiments on 3D Optical Diffraction Tomography with real data demonstrate the effectiveness of our approach) 
   are now online! Many thanks to all collaborators.
 </div>
 
@@ -179,7 +179,7 @@ My research interests include:
   <strong>Aug 11 - 15</strong>
 </span><br>
 Attended the IPAM 
-<a><em>Randomized Numerical Linear Algebra</em></a> workshop at UCLA.  
+<em>Randomized Numerical Linear Algebra</em> workshop at UCLA.  
 Many thanks to the organizers and our group leaders 
 <a href="https://scholar.google.com/citations?user=Bjpb27sAAAAJ&hl=en" target="_blank"> Sherry Li </a> and 
 <a href="https://scholar.google.com/citations?user=DBMfHw4AAAAJ&hl=en" target="_blank"> Wendy Di </a>.  
@@ -189,7 +189,7 @@ It was a pleasure to learn and meet so many wonderful colleagues.
 
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
   <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">  <strong> Jun 2 - 6 </strong></span><br>
-  Attended ICERM   
+  Attended the ICERM   
   <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-smlgwa" target="_blank"> <em>Scientific Machine Learning for Gravitational Wave Astronomy</em> </a> workshop at Brown University.  Many thanks to the organizers. It was a pleasure to learn more about gravitational waves and meet many new colleagues.
 </div>
 
