@@ -179,8 +179,7 @@ My research interests include:
   <strong>Aug 11 - 15</strong>
 </span><br>
 Attended the IPAM 
-<a href="https://www.ipam.ucla.edu/programs/special-events-and-conferences/research-collaboration-workshop-randomized-numerical-linear-algebra-rnla/" target="_blank"> <em>Randomized Numerical Linear Algebra</em> </a>
- workshop at UCLA.  
+<a href="https://www.ipam.ucla.edu/programs/special-events-and-conferences/research-collaboration-workshop-randomized-numerical-linear-algebra-rnla/" target="_blank"> <em>Randomized Numerical Linear Algebra</em> </a> workshop at UCLA.  
 Many thanks to the organizers and our group leaders 
 <a href="https://scholar.google.com/citations?user=Bjpb27sAAAAJ&hl=en" target="_blank"> Sherry Li </a> and 
 <a href="https://scholar.google.com/citations?user=DBMfHw4AAAAJ&hl=en" target="_blank"> Wendy Di </a>.  
