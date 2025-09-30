@@ -1,4 +1,15 @@
 ---
+layout: single
+title: "CV"
+permalink: /cv/
+author_profile: true
+---
+
+<embed src="/files/CV.pdf" type="application/pdf" width="100%" height="800px" />
+
+
+
+<!-- ---
 layout: archive
 title: "CV"
 permalink: /cv/
@@ -12,7 +23,7 @@ redirect_from:
 
 Link
 ======
-[Download my CV here]()
+[Download my CV here]() -->
 
 
 
