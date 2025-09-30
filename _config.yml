@@ -181,10 +181,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  CV:
+  cv:
     output: true
     permalink: /:collection/:path/
-  # Research Statemet:
+  # rs:
   #   output: true
   #   permalink: /:collection/:path/  
   #code:
