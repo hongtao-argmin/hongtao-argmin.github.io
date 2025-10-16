@@ -239,7 +239,7 @@ My research interests include:
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
   <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">   <strong>Oct 8</strong></span><br>
   Our work  
-  <a href="https://arxiv.org/abs/2411.08178" target="_blank"> <em>On Adapting Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction</em> </a> was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. In this paper, we propose a novel technique for designing an on-the-fly preconditioner using only $Ax$. Moreover, we demonstrate how this preconditioner can be used to accelerate image reconstruction with wavelet, total variation (TV), and Hessian-Schatten norm regularizers. Our code is also coming soon. 
+  <a href="https://arxiv.org/abs/2411.08178" target="_blank"> <em>On Adapting Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction</em> </a> was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. In this paper, we propose a novel technique for designing an on-the-fly preconditioner using only $\mathrm{A}\mathrm{x}$. Moreover, we demonstrate how this preconditioner can be used to accelerate image reconstruction with wavelet, total variation (TV), and Hessian-Schatten norm regularizers. Our code is also coming soon. 
 </div>
 
 
