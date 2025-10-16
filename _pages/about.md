@@ -157,6 +157,11 @@ My research interests include:
 
 ## 2025
 
+<div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
+  <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">   <strong>Oct 16</strong></span><br>
+  Our work  
+  <a href="https://arxiv.org/abs/2505.04820" target="_blank"> <em>Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction</em> </a> was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. In this paper, we propose a new method with rigorous theoretical guarantees for CS-MRI reconstruction with learned priors. Our theoretical results rely on an assumption that is easily satisfied by practical neural networks.  Our code is also coming soon. 
+</div>
 
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
   <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">   <strong>Oct 8</strong></span><br>
