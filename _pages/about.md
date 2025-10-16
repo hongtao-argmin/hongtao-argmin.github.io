@@ -12,6 +12,79 @@ redirect_from:
 and <strong>inverse problems</strong>
  the <a href="http://fmri.research.umich.edu/index.php"> Functional MRI Lab</a>,
 -->
+<!-- MathJax config with macros -->
+<script>
+MathJax = {
+  tex: {
+    macros: {
+    bm: ["\\boldsymbol{#1}", 1],
+    uva: "\\boldsymbol{\\mathrm{a}}",
+    uvb: "\\boldsymbol{\\mathrm{b}}",
+    uvc: "\\boldsymbol{\\mathrm{c}}",
+    uvd: "\\boldsymbol{\\mathrm{d}}",
+    uve: "\\boldsymbol{\\mathrm{e}}",
+    uvf: "\\boldsymbol{\\mathrm{f}}",
+    uvg: "\\boldsymbol{\\mathrm{g}}",
+    uvh: "\\boldsymbol{\\mathrm{h}}",
+    uvi: "\\boldsymbol{\\mathrm{i}}",
+    uvj: "\\boldsymbol{\\mathrm{j}}",
+    uvk: "\\boldsymbol{\\mathrm{k}}",
+    uvl: "\\boldsymbol{\\mathrm{l}}",
+    uvm: "\\boldsymbol{\\mathrm{m}}",
+    uvn: "\\boldsymbol{\\mathrm{n}}",
+    uvo: "\\boldsymbol{\\mathrm{o}}",
+    uvp: "\\boldsymbol{\\mathrm{p}}",
+    uvq: "\\boldsymbol{\\mathrm{q}}",
+    uvr: "\\boldsymbol{\\mathrm{r}}",
+    uvs: "\\boldsymbol{\\mathrm{s}}",
+    uvt: "\\boldsymbol{\\mathrm{t}}",
+    uvu: "\\boldsymbol{\\mathrm{u}}",
+    uvv: "\\boldsymbol{\\mathrm{v}}",
+    uvw: "\\boldsymbol{\\mathrm{w}}",
+    uvx: "\\boldsymbol{\\mathrm{x}}",
+    uvy: "\\boldsymbol{\\mathrm{y}}",
+    uvz: "\\boldsymbol{\\mathrm{z}}",
+    
+    umA: "\\boldsymbol{\\mathrm{A}}",
+    umB: "\\boldsymbol{\\mathrm{B}}",
+    umC: "\\boldsymbol{\\mathrm{C}}",
+    umD: "\\boldsymbol{\\mathrm{D}}",
+    umE: "\\boldsymbol{\\mathrm{E}}",
+    umF: "\\boldsymbol{\\mathrm{F}}",
+    umG: "\\boldsymbol{\\mathrm{G}}",
+    umH: "\\boldsymbol{\\mathrm{H}}",
+    umI: "\\boldsymbol{\\mathrm{I}}",
+    umJ: "\\boldsymbol{\\mathrm{J}}",
+    umK: "\\boldsymbol{\\mathrm{K}}",
+    umL: "\\boldsymbol{\\mathrm{L}}",
+    umM: "\\boldsymbol{\\mathrm{M}}",
+    umN: "\\boldsymbol{\\mathrm{N}}",
+    umO: "\\boldsymbol{\\mathrm{O}}",
+    umP: "\\boldsymbol{\\mathrm{P}}",
+    umQ: "\\boldsymbol{\\mathrm{Q}}",
+    umR: "\\boldsymbol{\\mathrm{R}}",
+    umS: "\\boldsymbol{\\mathrm{S}}",
+    umT: "\\boldsymbol{\\mathrm{T}}",
+    umU: "\\boldsymbol{\\mathrm{U}}",
+    umV: "\\boldsymbol{\\mathrm{V}}",
+    umW: "\\boldsymbol{\\mathrm{W}}",
+    umX: "\\boldsymbol{\\mathrm{X}}",
+    umY: "\\boldsymbol{\\mathrm{Y}}",
+    umZ: "\\boldsymbol{\\mathrm{Z}}"
+    },
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  }
+};
+</script>
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 
 <p style="text-align:justify; text-justify:inter-ideograph;">
 I am currently a postdoctoral fellow at the <a href="https://oden.utexas.edu"> Oden Institute</a>, University of Texas at Austin, collaborating with Prof.  <a href="https://uvilla.github.io/index.html"> Umberto Villa</a> on topics related to <strong>provable computational methods</strong>, <strong>interpretable/reliable AI models</strong>, and <strong>photoacoustic imaging</strong>, among others.  Prior to Austin,  I was a postdoc at the University of Michigan, Ann Arbor, where I collaborated with Prof.  <a href="https://web.eecs.umich.edu/~fessler/">Jeffrey A. Fessler</a> and Prof.  <a href="http://fmri.research.umich.edu/about/faculty/hernandez.php">Luis Hernandez-Garcia</a> on topics related to <strong>computational MRI</strong>, Arterial Spin Labeling, and inverse problems. I completed my PhD research in the <a href="https://www.cs.technion.ac.il">Computer Science Department</a> at the Technion — Israel Institute of Technology,  under the supervision of Prof. <a href="http://irad.net.technion.ac.il">Irad Yavneh</a> and Prof. <a href="https://sites.google.com/site/michaelzibulevsky/">Michael Zibulevsky</a>.  My graduate research primarily focused on <strong>numerical optimization</strong> and <strong>multigrid computational methods</strong>. <a href="https://hongtao-argmin.github.io/files/PhDThesisTaoHong_Full.pdf">Thesis link</a>.
@@ -166,7 +239,7 @@ My research interests include:
 <div style="margin-bottom: 1em;  font-size: 1em; text-align: justify">
   <span style="font-size: 1.2em;"> <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">   <strong>Oct 8</strong></span><br>
   Our work  
-  <a href="https://arxiv.org/abs/2411.08178" target="_blank"> <em>On Adapting Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction</em> </a> was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. Our code is also coming soon. 
+  <a href="https://arxiv.org/abs/2411.08178" target="_blank"> <em>On Adapting Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction</em> </a> was accepted to IEEE Transactions on Computational Imaging! Many thanks to all collaborators. In this paper, we propose a novel technique for designing an on-the-fly preconditioner using only $\umA\uvx$. Moreover, we demonstrate how this preconditioner can be used to accelerate image reconstruction with wavelet, total variation (TV), and Hessian-Schatten norm regularizers. Our code is also coming soon. 
 </div>
 
 
