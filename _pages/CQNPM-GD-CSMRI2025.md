@@ -89,7 +89,7 @@ MathJax = {
     </div>
   
   <div style="display: inline-block; margin: 0 1em;">
-  <a href="#" style="font-size: 1.5em; font-weight: bold;">Zhaoyi Xu </a> <br>
+  <a href="https://xu-zhaoyi.github.io" style="font-size: 1.5em; font-weight: bold;">Zhaoyi Xu </a> <br>
   <span style="font-size: 1.2em;">Umich</span>
   </div>
   
