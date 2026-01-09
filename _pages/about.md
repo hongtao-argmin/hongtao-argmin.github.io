@@ -227,6 +227,16 @@ My research interests include:
 # <img src="/images/blurfire.png" alt="🔥" width="50" /> News
 
 <!-- 🔥 style="height: 42px; vertical-align: top;" -->
+## 2026
+
+<div style="margin-bottom: 1em; font-size: 1em; text-align: justify">
+  <span style="font-size: 1.2em;">
+    <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">
+    <strong>Jan 9</strong>
+  </span><br>
+  Our work
+  <a href="https://arxiv.org/abs/2508.11219" target="_blank"><em>A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction with Gradient-Driven Denoisers</em> </a> was accepted to <em>IEEE Transactions on Computational Imaging</em>! Many thanks to all collaborators. In this paper, we generalize the Krylov subspace method to gradient-driven denoiser-based MRI reconstruction. The proposed method reconstructs high-quality images within seconds and is supported by a rigorous convergence analysis.
+</div>
 
 ## 2025
 
