@@ -232,6 +232,16 @@ My research interests include:
 <div style="margin-bottom: 1em; font-size: 1em; text-align: justify">
   <span style="font-size: 1.2em;">
     <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">
+    <strong>Feb 19</strong>
+  </span><br>
+  Our work
+  <a href="https://arxiv.org/abs/2307.02043" target="_blank"><em>A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction </em> </a> was accepted to  <em>SIAM Journal on Imaging Sciences</em>! Many thanks to all collaborators. In this paper, we develop a mini-batch quasi-Newton proximal framework for solving challenging nonconvex and nonlinear inverse problems. The proposed method significantly reduces the computational cost required to reconstruct high-quality images while maintaining strong theoretical guarantees. We extensively validate the proposed approach for refractive index reconstruction in optical diffraction tomography using both simulated and real experimental data under the Born and Lippmann-Schwinger models.  Find our implementation at <a href="https://github.com/hongtao-argmin/MiniBatch-QNP-NonlinearReco" target="_blank" style="color: red; font-weight: 600;">Code</a>. 
+</div>
+
+
+<div style="margin-bottom: 1em; font-size: 1em; text-align: justify">
+  <span style="font-size: 1.2em;">
+    <img src="/images/bluecalendar.jpg" style="height: 36px; vertical-align: top;">
     <strong>Jan 9</strong>
   </span><br>
   Our work
