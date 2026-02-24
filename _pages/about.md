@@ -214,14 +214,14 @@ My research interests include:
 ======
 
 <ul style= "margin-bottom: 5em;">
-  <li>Numerical Optimization & Multigrid Computational Methods</li>
-  <li>Interpretable/Reliable AI Models & Scientific Computing & Compressive Sensing</li>
-  <li>Photoacoustic Computed Tomography and Computational MR Imaging</li>
-  <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li>
+  <li>Numerical Optimization & Scientific Computing & Computational Imaging</li>
+  <li>Interpretable/Reliable AI Models in Imaging Science</li>
+  <li>Photoacoustic Computed Tomography & Computational MR Imaging & Optical Imaging</li>
 </ul>
 
 
-<!--<img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/calendar-may-8-icon.svg" alt="May 9 Calendar Icon" style="height: 32px; vertical-align: middle;">-->
+
+<!-- <li>Applications to Machine Learning, Signal Processing, and Computational Imaging</li> <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/calendar-may-8-icon.svg" alt="May 9 Calendar Icon" style="height: 32px; vertical-align: middle;"> -->
 
 
 # <img src="/images/blurfire.png" alt="🔥" width="50" /> News
