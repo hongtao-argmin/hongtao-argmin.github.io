@@ -216,7 +216,7 @@ My research interests include:
 <ul style= "margin-bottom: 5em;">
   <li>Numerical Optimization & Scientific Computing & Computational Imaging</li>
   <li>Interpretable/Reliable AI Models in Imaging Science</li>
-  <li>Photoacoustic Computed Tomography & Computational MR Imaging & Optical Imaging</li>
+  <li>Computational MR Imaging & Photoacoustic Computed Tomography & Optical Imaging</li>
 </ul>
 
 
