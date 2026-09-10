@@ -1,0 +1,147 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Research | Tao Hong (洪涛) </title> <meta name="author" content="Tao Hong"> <meta name="description" content="Computational foundations for next-generation imaging"> <meta name="keywords" content="numerical optimization, computational imaging, MRI, photoacoustic imaging, inverse problems, scientific computing"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <script>
+  (function () {
+    var svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\"> <!-- Transparent blue fire \u2014 no background --> <g transform=\"translate(32 30) scale(1.28) translate(-32 -32)\"> <path fill=\"#1E6FFF\" d=\"M32 4c2 8 10 12 10 22 0 4-2 8-5 11 3-1 6-4 7-8 4 6 6 12 6 17 0 12-10 22-22 22S6 58 6 46c0-10 6-18 12-24-1 5 0 9 3 12 0-10 6-18 11-30z\"/> <path fill=\"#5CB6FF\" d=\"M32 18c1.5 5 6 8 6 14 0 3-1.2 5.5-3.2 7.5 2-.7 3.7-2.5 4.4-5 2.5 4 3.8 8 3.8 11.5 0 8-6.5 14.5-14.5 14.5S14 54 14 46c0-6.5 3.8-12 7.8-16-.5 3.2.2 5.8 2.2 8C24 30 28 24 32 18z\"/> <path fill=\"#B3E0FF\" d=\"M32 30c1 3.2 3.5 5 3.5 8.2 0 1.8-.7 3.2-1.8 4.4 1.2-.4 2.2-1.4 2.6-2.8 1.4 2.4 2.2 4.8 2.2 7 0 5-3.8 9-8.5 9S21 51.8 21 46.8c0-3.8 2.2-7 4.5-9.5-.3 1.8.2 3.4 1.4 4.6 0-4.2 2.5-8 5.1-11.9z\"/> </g> </svg>";
+    function applyFavicon() {
+      var marked = svg.replace("</svg>", "<!--" + Date.now() + "--></svg>");
+      var href = "data:image/svg+xml," + encodeURIComponent(marked);
+      document.querySelectorAll('link[rel="icon"],link[rel="shortcut icon"]').forEach(function (el) {
+        el.parentNode.removeChild(el);
+      });
+      var link = document.createElement("link");
+      link.rel = "icon";
+      link.type = "image/svg+xml";
+      link.href = href;
+      document.head.insertBefore(link, document.head.firstChild);
+    }
+    applyFavicon();
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", applyFavicon);
+    }
+    window.addEventListener("pageshow", applyFavicon);
+  })();
+</script> <link rel="apple-touch-icon" href="/assets/img/tao-fire-touch.png?v=176b9c004105b6b2ec4a99c3c6aaac4f"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://hongtao-argmin.github.io/research/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <script defer src="/assets/js/safari-zoom-fix.js?v=bf26da02db7ba18676a693da964aac65"></script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> Tao Hong (洪涛) </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/research/">Research <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/software/">Software </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Research</h1> <p class="post-description">Computational foundations for next-generation imaging</p> </header> <article> <div class="research-page"> <p>My research focuses on extracting meaningful information from limited and imperfect measurements. I organize my work around three connected themes: <strong>numerical methods</strong> for large-scale inverse problems, <strong>physics + learning</strong> for reliable reconstruction, and <strong>biomedical &amp; scientific</strong> imaging. Together, these themes connect advances in numerical computation with new capabilities in computational imaging.</p> <p>My long-term vision is to develop the <strong>computational foundations</strong> for next-generation imaging systems that integrate mathematical structure, physical models, and data-driven learning. I am particularly interested in <strong>jointly recovering images and latent imaging parameters</strong> from incomplete measurements, pushing the limits of what can be <strong>resolved, tracked, and quantified</strong>.</p> <div class="research-vision"> <figure> <picture> <img src="/assets/img/research/RV_Summary.png?v=6d164be0aed385f05796f2a3123a4ca9" class="img-fluid research-vision-img" width="100%" height="auto" alt="Research vision: mathematical structure, imaging physics, and data-driven learning combine into computational imaging to resolve, track, and quantify" data-zoomable="" data-zoom-src="/assets/img/research/RV_Summary.png?v=6d164be0aed385f05796f2a3123a4ca9&amp;full=1" data-zoom-scale="1.36" title="Click to view full size (Option-click opens original)" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> <figcaption class="caption">Computational imaging at the intersection of numerical methods, physics, and learning.</figcaption> </figure> </div> <hr class="research-divider"> <h3 id="optimization">Numerical Methods</h3> <p>Modern inverse problems often involve high-dimensional variables, nonlinear forward models, incomplete data, and complex physical models, posing fundamental challenges in both computation and reliability. My research develops numerical methods that exploit <strong>mathematical and problem structure</strong> to address these challenges efficiently and reliably.</p> <p>My work draws broadly on <strong>numerical analysis, scientific computing, and optimization</strong>. A recurring principle is to identify exploitable structure—across scales, curvature, low-dimensional representations, or forward models—and incorporate it directly into algorithm design. This perspective enables efficient computation for inverse problems that would otherwise be prohibitively expensive to solve.</p> <p><strong>Focus areas</strong></p> <ul> <li>Multigrid and multilevel methods</li> <li>Quasi-Newton and proximal methods</li> <li>Krylov-subspace methods and preconditioning</li> <li>Stochastic and mini-batch optimization</li> <li>Acceleration and extrapolation methods</li> </ul> <p><strong>Related publications</strong></p> </div> <div class="research-refs"> <ol class="bibliography"> <li> <span id="hong2026genkrylov"><span class="research-ref-index">[1]</span> <strong class="research-self">T. Hong</strong>, U. Villa, and J. A. Fessler, “A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction with Gradient-Driven Denoisers,” <i>IEEE Transactions on Computational Imaging</i>, vol. 12, pp. 378–390, Jan. 2026.</span> </li> <li> <span id="hong2026minibatch"><span class="research-ref-index">[2]</span> <strong class="research-self">T. Hong</strong>, T.-an Pham, I. Yavneh, and M. Unser, “A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction,” <i>SIAM Journal on Imaging Sciences</i>, vol. 19, no. 3, pp. 1864–1894, 2026.</span> </li> <li> <span id="hong2025nystrom"><span class="research-ref-index">[3]</span> <strong class="research-self">T. Hong</strong>, Z. Xu, J. Hu, and J. A. Fessler, “Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction,” <i>IEEE Transactions on Computational Imaging</i>, vol. 11, pp. 1630–1643, Oct. 2025.</span> </li> <li> <span id="hong2022nesterov"><span class="research-ref-index">[4]</span> <strong class="research-self">T. Hong</strong> and I. Yavneh, “On Adapting Nesterov’s Scheme to Accelerate Iterative Methods for Linear Problems,” <i>Numerical Linear Algebra with Applications</i>, vol. 29, no. 2, p. e2417, 2022.</span> </li> <li> <span id="hong2018merging"><span class="research-ref-index">[5]</span> <strong class="research-self">T. Hong</strong>, I. Yavneh, and M. Zibulevsky, “Merging Multigrid Optimization with SESOP.” 2018. Available at: https://arxiv.org/abs/1812.06896</span> </li> </ol> </div> <div class="research-page"> <hr class="research-divider"> <h3 id="physics-learning">Physics + Learning for Computational Imaging</h3> <p>Computational imaging provides explicit knowledge of how measurements are physically generated, while <strong>data-driven learning</strong> can capture complex image structure from data. My research brings these complementary sources of information together within model-based reconstruction.</p> <p>I am particularly interested in integrating learning with physical forward models, using learned priors, denoisers, and other data-driven representations to model image structure that is difficult to characterize explicitly. This integration allows learned information to guide reconstruction while maintaining consistency with the measurements and underlying imaging physics.</p> <p><strong>Focus areas</strong></p> <ul> <li>Learned priors</li> <li>Physics-integrated iterative reconstruction</li> <li>Convergence and reliability of learning-based methods</li> </ul> <p><strong>Related publications</strong></p> </div> <div class="research-refs"> <ol class="bibliography"> <li> <span id="hong2026genkrylov"><span class="research-ref-index">[1]</span> <strong class="research-self">T. Hong</strong>, U. Villa, and J. A. Fessler, “A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction with Gradient-Driven Denoisers,” <i>IEEE Transactions on Computational Imaging</i>, vol. 12, pp. 378–390, Jan. 2026.</span> </li> <li> <span id="hong2025cqnpm"><span class="research-ref-index">[2]</span> <strong class="research-self">T. Hong</strong>, Z. Xu, S. Y. Chun, L. Hernandez-Garcia, and J. A. Fessler, “Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction,” <i>IEEE Transactions on Computational Imaging</i>, vol. 11, pp. 1534–1547, Oct. 2025.</span> </li> <li> <span id="hong2024ppnp"><span class="research-ref-index">[3]</span> <strong class="research-self">T. Hong</strong>, X. Xu, J. Hu, and J. A. Fessler, “Provable Preconditioned Plug-and-Play Approach for Compressed Sensing MRI Reconstruction,” <i>IEEE Transactions on Computational Imaging</i>, vol. 10, pp. 1476–1488, Oct. 2024.</span> </li> <li> <span id="hong2020redwpm"><span class="research-ref-index">[4]</span> <strong class="research-self">T. Hong</strong>, I. Yavneh, and M. Zibulevsky, “Solving RED with Weighted Proximal Methods,” <i>IEEE Signal Processing Letters</i>, vol. 27, pp. 501–505, Mar. 2020.</span> </li> </ol> </div> <div class="research-page"> <hr class="research-divider"> <h3 id="computational-imaging">Biomedical &amp; Scientific Imaging</h3> <p>Biomedical and scientific imaging increasingly seek to recover information that is not directly accessible from measured data, from high-resolution anatomical structure to dynamic and quantitative information. My research develops computational imaging methods that <strong>expand what can be resolved, tracked, and quantified</strong> from limited and imperfect measurements.</p> <p>I work across <strong>magnetic resonance imaging, photoacoustic, and optical imaging</strong>, where different measurement physics give rise to distinct inverse problems and computational challenges. Across these modalities, I am particularly interested in enabling faster and more robust imaging, resolving dynamic processes, and advancing quantitative imaging to better characterize underlying physical and physiological systems.</p> <p><strong>Magnetic Resonance Imaging</strong></p> <ul> <li>Accelerated and compressed-sensing MRI</li> <li>Nonlinear and model-based reconstruction</li> <li>Motion-robust reconstruction</li> </ul> <div class="research-demo-gifs"> <figure> <picture> <img src="/assets/img/research/MyBrainT2Star.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" style=" max-width: 720px; " alt="My brain — 3D slice walkthrough" data-zoomable="" data-zoom-src="/assets/img/research/MyBrainT2Star.gif?v=6b38351a82ec32b4332120c1b148a0a6&amp;full=1" data-zoom-scale="2" title="Click to view full size (Option-click opens original)" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> <figcaption class="caption">Movie of my brain.</figcaption> </figure> </div> <p><strong>Photoacoustic Imaging</strong></p> <ul> <li>Dynamic image reconstruction</li> <li>Low-dimensional representations of spatiotemporal images</li> </ul> <div class="research-demo-gifs"> <figure> <picture> <img src="/assets/img/research/PACTImage.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" style=" max-width: 720px; " alt="Photoacoustic computed tomography — vascular and volumetric imaging" data-zoomable="" data-zoom-src="/assets/img/research/PACTImage.png?v=fed67e2ff8b9ca0100fdbf323b5e25c4&amp;full=1" data-zoom-scale="0.8" title="Click to view full size (Option-click opens original)" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> <figcaption class="caption">Human chest vasculature and a 3D MOBY mouse phantom for photoacoustic imaging.</figcaption> </figure> </div> <p><strong>Optical Imaging</strong></p> <ul> <li>Optical diffraction tomography and Fourier ptychography</li> <li>Nonlinear image reconstruction</li> <li>Wave-based inverse problems</li> </ul> <div class="research-demo-gifs"> <figure> <picture> <img src="/assets/img/research/ODTImage.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" style=" max-width: 720px; " alt="Optical diffraction tomography — principle and reconstruction results" data-zoomable="" data-zoom-src="/assets/img/research/ODTImage.png?v=49a364912b1701ea745d051cd5adee39&amp;full=1" data-zoom-scale="0.8" title="Click to view full size (Option-click opens original)" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> <figcaption class="caption">Optical diffraction tomography — imaging model and 3D reconstruction.</figcaption> </figure> </div> <p><strong>Related publications</strong></p> </div> <div class="research-refs"> <ol class="bibliography"> <li> <span id="hong2026minibatch"><span class="research-ref-index">[1]</span> <strong class="research-self">T. Hong</strong>, T.-an Pham, I. Yavneh, and M. Unser, “A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction,” <i>SIAM Journal on Imaging Sciences</i>, vol. 19, no. 3, pp. 1864–1894, 2026.</span> </li> <li> <span id="hong2024ppnp"><span class="research-ref-index">[2]</span> <strong class="research-self">T. Hong</strong>, X. Xu, J. Hu, and J. A. Fessler, “Provable Preconditioned Plug-and-Play Approach for Compressed Sensing MRI Reconstruction,” <i>IEEE Transactions on Computational Imaging</i>, vol. 10, pp. 1476–1488, Oct. 2024.</span> </li> <li> <span id="hong2026pact"><span class="research-ref-index">[3]</span> <strong class="research-self">T. Hong</strong>, J. Shah, L. Lozenski, R. Cam, M. Anastasio, and U. Villa, “A Virtual Imaging Framework for DCE-PACT Estimation of Tumor Perfusion,” in <i>Medical Imaging: Physics of Medical Imaging</i>, SPIE, 2026.</span> </li> <li> <span id="hong2021diffraction"><span class="research-ref-index">[4]</span> <strong class="research-self">T. Hong</strong>, T.-an Pham, E. Treister, and M. Unser, “Diffraction Tomography with Helmholtz Equation: Efficient and Robust Multigrid-Based Solver.” 2021. Available at: https://arxiv.org/abs/2107.03679</span> </li> </ol> </div> <div class="research-page"> <p class="research-more"> Full list: <a href="/publications/">Publications</a> · <a href="https://scholar.google.com/citations?user=tmghd10AAAAJ" rel="external nofollow noopener" target="_self">Google Scholar</a> </p> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Tao Hong. Powered by <a href="https://jekyllrb.com/" rel="external nofollow noopener" target="_self">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_self">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" rel="external nofollow noopener" target="_self">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "About",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "Publications",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Computational foundations for next-generation imaging",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-software",
+          title: "Software",
+          description: "Open-source code for multigrid, optimization, and computational imaging.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
+          },
+        },{id: "news-our-work-using-randomized-nyström-preconditioners-to-accelerate-variational-image-reconstruction-was-accepted-to-ieee-transactions-on-computational-imaging-find-our-implementation-at-code",
+          title: 'Our work Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction was accepted...',
+          description: "",
+          section: "News",},{id: "news-our-work-convergent-complex-quasi-newton-proximal-methods-for-gradient-driven-denoisers-in-compressed-sensing-mri-reconstruction-was-accepted-to-ieee-transactions-on-computational-imaging-find-our-implementation-and-project-website-at-code-and-project-website",
+          title: 'Our work Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing...',
+          description: "",
+          section: "News",},{id: "news-our-work-a-convergent-generalized-krylov-subspace-method-for-compressed-sensing-mri-reconstruction-with-gradient-driven-denoisers-was-accepted-to-ieee-transactions-on-computational-imaging-the-proposed-method-reconstructs-high-quality-images-within-seconds-and-is-supported-by-a-rigorous-convergence-analysis",
+          title: 'Our work A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction...',
+          description: "",
+          section: "News",},{id: "news-our-work-a-mini-batch-quasi-newton-proximal-method-for-constrained-total-variation-nonlinear-image-reconstruction-was-accepted-to-siam-journal-on-imaging-sciences-find-our-implementation-at-code",
+          title: 'Our work A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction...',
+          description: "",
+          section: "News",},{id: "projects-convergent-complex-quasi-newton-proximal-methods-for-gradient-driven-denoisers-in-compressed-sensing-mri-reconstruction",
+          title: 'Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction...',
+          description: "Convergent complex quasi-Newton proximal methods for gradient-driven denoisers in compressed sensing MRI reconstruction",
+          section: "Projects",handler: () => {
+              window.location.href = "/CQNPM-GD-CSMRI/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%68%6F%6E%67.%74%61%6F@%69%65%65%65.%6F%72%67", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/tao-hong-bbbb79295", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/hongtao-argmin", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=tmghd10AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-1383-5109", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
