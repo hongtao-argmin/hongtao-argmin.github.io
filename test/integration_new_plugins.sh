@@ -7,17 +7,46 @@
 # feature silently disappears. Only asserting the rendered output catches that.
 set -euo pipefail
 
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# shellcheck source=lib/posts_fixture_config.sh
+source "${ROOT_DIR}/test/lib/posts_fixture_config.sh"
+
 tmp_dir="$(mktemp -d)"
 cleanup() {
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
 
+# RTL + marimo demos live under `_posts/` (excluded on the public site).
+: >"${tmp_dir}/override.yml"
+prepare_fixture_post_excludes "${tmp_dir}" '*rtl*' '*marimo*'
+FIXTURE_CONFIG="${tmp_dir}/config.yml,${tmp_dir}/override.yml"
+
 build() {
   local name="$1"
   shift
   local out="${tmp_dir}/site-${name}"
-  bundle exec jekyll build "$@" -d "${out}" >/dev/null
+  if [[ "$#" -eq 0 ]]; then
+    bundle exec jekyll build --config "${FIXTURE_CONFIG}" -d "${out}" >/dev/null
+  else
+    # Extra --config from caller replaces ours; merge fixture config in front.
+    local args=()
+    local saw_config=0
+    while [[ "$#" -gt 0 ]]; do
+      if [[ "$1" == "--config" ]]; then
+        saw_config=1
+        args+=(--config "${FIXTURE_CONFIG},$2")
+        shift 2
+      else
+        args+=("$1")
+        shift
+      fi
+    done
+    if [[ "${saw_config}" -eq 0 ]]; then
+      args+=(--config "${FIXTURE_CONFIG}")
+    fi
+    bundle exec jekyll build "${args[@]}" -d "${out}" >/dev/null
+  fi
   echo "${out}"
 }
 
