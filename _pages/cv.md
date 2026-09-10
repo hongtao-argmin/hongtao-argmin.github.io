@@ -7,9 +7,11 @@ nav_order: 4
 nav_url: /assets/pdf/CV.pdf
 layout: null
 ---
+
 {% comment %}
 Fallback if someone opens /cv/ directly (navbar already uses nav_url -> PDF).
 {% endcomment %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>

@@ -6,4 +6,4 @@ published: false
 related_posts: false
 ---
 
-Our work [*Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction*](https://arxiv.org/abs/2411.08178) is now online! Many thanks to all collaborators.
+Our work [_Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction_](https://arxiv.org/abs/2411.08178) is now online! Many thanks to all collaborators.

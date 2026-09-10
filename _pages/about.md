@@ -35,7 +35,6 @@ I am currently a Postdoctoral Fellow in the Department of Radiology at **Boston 
 
 Previously, I was a postdoctoral fellow at the [Oden Institute](https://oden.utexas.edu), The University of Texas at Austin, with Prof. [Umberto Villa](https://uvilla.github.io/index.html), and at the University of Michigan, Ann Arbor, with Prof. [Jeffrey A. Fessler](https://web.eecs.umich.edu/~fessler/) and Prof. [Luis Hernandez-Garcia](http://fmri.research.umich.edu/about/faculty/hernandez.php). I received my Ph.D. in Computer Science from the [Technion – Israel Institute of Technology](https://www.cs.technion.ac.il), advised by Prof. [Irad Yavneh](http://irad.net.technion.ac.il) and Prof. [Michael Zibulevsky](https://sites.google.com/site/michaelzibulevsky/), where my research focused on **numerical optimization and multigrid methods**. [Ph.D. Thesis]({{ '/assets/pdf/PhDThesisTaoHong_Full.pdf' | relative_url }}).
 
-
 <!-- My Erdős number is 3.
 
 I am currently a postdoctoral fellow at the [Oden Institute](https://oden.utexas.edu), University of Texas at Austin, collaborating with Prof. [Umberto Villa](https://uvilla.github.io/index.html) on topics related to **provable computational methods**, **interpretable/reliable AI models**, and **photoacoustic imaging**, among others. Prior to Austin, I was a postdoc at the University of Michigan, Ann Arbor, where I collaborated with Prof. [Jeffrey A. Fessler](https://web.eecs.umich.edu/~fessler/) and Prof. [Luis Hernandez-Garcia](http://fmri.research.umich.edu/about/faculty/hernandez.php) on topics related to **computational MRI**, Arterial Spin Labeling, and inverse problems. I completed my PhD research in the [Computer Science Department](https://www.cs.technion.ac.il) at the Technion — Israel Institute of Technology, under the supervision of Prof. [Irad Yavneh](http://irad.net.technion.ac.il) and Prof. [Michael Zibulevsky](https://sites.google.com/site/michaelzibulevsky/). My graduate research primarily focused on **numerical optimization** and **multigrid computational methods**. [Thesis link]({{ '/assets/pdf/PhDThesisTaoHong_Full.pdf' | relative_url }}).
@@ -47,7 +46,7 @@ My Erdős number is 3.
 
 My research lies at the intersection of applied mathematics and computational imaging. I develop computational methods that integrate mathematical structure, imaging physics, and data-driven learning to solve large-scale inverse problems.
 
-<!-- 
+<!--
   doi         = {10.1137/25M1789305},
   url         = {https://doi.org/10.1137/25M1789305},
 - **Scalable numerical methods** — numerical analysis, optimization, and iterative methods for large-scale computational problems

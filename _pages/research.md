@@ -30,23 +30,36 @@ My long-term vision is to develop the **computational foundations** for next-gen
 %}
 </div>
 
-{% comment %}
-<ul class="research-toc">
-  <li><a href="#optimization">Numerical Methods</a></li>
-  <li><a href="#physics-learning">Physics + Learning for Computational Imaging</a></li>
-  <li><a href="#computational-imaging">Biomedical &amp; Scientific Imaging</a></li>
-</ul>
-{% endcomment %}
+<div class="research-bands research-bands--page">
+  <a class="research-band" href="#optimization">
+    <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-computer"></i></div>
+    <div class="research-band-title">1 · Numerical Methods</div>
+    <p class="research-band-text">Exploiting mathematical structure for efficient and reliable large-scale computation.</p>
+  </a>
+  <a class="research-band" href="#physics-learning">
+    <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></div>
+    <div class="research-band-title">2 · Physics + Learning</div>
+    <p class="research-band-text">Combining physical models with data-driven learning for interpretable reconstruction.</p>
+  </a>
+  <a class="research-band" href="#computational-imaging">
+    <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-microscope"></i></div>
+    <div class="research-band-title">3 · Biomedical &amp; Scientific Imaging</div>
+    <p class="research-band-text">Extracting meaningful information from complex measurements.</p>
+  </a>
+</div>
 
-<hr class="research-divider">
-
-### Numerical Methods
-{: #optimization}
+<header class="research-theme-head research-theme-head--1" id="optimization">
+  <div class="research-theme-kicker">
+    <span class="research-theme-icon" aria-hidden="true"><i class="fa-solid fa-computer"></i></span>
+    <span class="research-theme-index">Theme 1</span>
+  </div>
+  <h3 class="research-theme-title">Numerical Methods</h3>
+  <p class="research-theme-lead">Exploiting mathematical structure for efficient and reliable large-scale computation.</p>
+</header>
 
 Modern inverse problems often involve high-dimensional variables, nonlinear forward models, incomplete data, and complex physical models, posing fundamental challenges in both computation and reliability. My research develops numerical methods that exploit **mathematical and problem structure** to address these challenges efficiently and reliably.
 
 My work draws broadly on **numerical analysis, scientific computing, and optimization**. A recurring principle is to identify exploitable structure—across scales, curvature, low-dimensional representations, or forward models—and incorporate it directly into algorithm design. This perspective enables efficient computation for inverse problems that would otherwise be prohibitively expensive to solve.
-
 
 **Focus areas**
 
@@ -66,10 +79,14 @@ My work draws broadly on **numerical analysis, scientific computing, and optimiz
 
 <div class="research-page" markdown="1">
 
-<hr class="research-divider">
-
-### Physics + Learning for Computational Imaging
-{: #physics-learning}
+<header class="research-theme-head research-theme-head--2" id="physics-learning">
+  <div class="research-theme-kicker">
+    <span class="research-theme-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></span>
+    <span class="research-theme-index">Theme 2</span>
+  </div>
+  <h3 class="research-theme-title">Physics + Learning for Computational Imaging</h3>
+  <p class="research-theme-lead">Combining physical models with data-driven learning for interpretable reconstruction.</p>
+</header>
 
 Computational imaging provides explicit knowledge of how measurements are physically generated, while **data-driven learning** can capture complex image structure from data. My research brings these complementary sources of information together within model-based reconstruction.
 
@@ -97,17 +114,18 @@ I am particularly interested in integrating learning with physical forward model
 
 <div class="research-page" markdown="1">
 
-<hr class="research-divider">
-
-### Biomedical & Scientific Imaging
-{: #computational-imaging}
+<header class="research-theme-head research-theme-head--3" id="computational-imaging">
+  <div class="research-theme-kicker">
+    <span class="research-theme-icon" aria-hidden="true"><i class="fa-solid fa-microscope"></i></span>
+    <span class="research-theme-index">Theme 3</span>
+  </div>
+  <h3 class="research-theme-title">Biomedical &amp; Scientific Imaging</h3>
+  <p class="research-theme-lead">Extracting meaningful information from complex measurements across MRI, photoacoustic, and optical imaging.</p>
+</header>
 
 Biomedical and scientific imaging increasingly seek to recover information that is not directly accessible from measured data, from high-resolution anatomical structure to dynamic and quantitative information. My research develops computational imaging methods that **expand what can be resolved, tracked, and quantified** from limited and imperfect measurements.
 
 I work across **magnetic resonance imaging, photoacoustic, and optical imaging**, where different measurement physics give rise to distinct inverse problems and computational challenges. Across these modalities, I am particularly interested in enabling faster and more robust imaging, resolving dynamic processes, and advancing quantitative imaging to better characterize underlying physical and physiological systems.
-
-
-
 
 **Magnetic Resonance Imaging**
 
@@ -141,7 +159,6 @@ I work across **magnetic resonance imaging, photoacoustic, and optical imaging**
 {% endcomment %}
 </div>
 
-
 **Photoacoustic Imaging**
 
 - Dynamic image reconstruction
@@ -159,7 +176,6 @@ I work across **magnetic resonance imaging, photoacoustic, and optical imaging**
   caption="Human chest vasculature and a 3D MOBY mouse phantom for photoacoustic imaging."
 %}
 </div>
-
 
 **Optical Imaging**
 

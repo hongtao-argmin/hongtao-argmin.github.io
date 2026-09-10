@@ -6,4 +6,4 @@ published: false
 related_posts: false
 ---
 
-Our latest work [*Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction*]({{ '/CQNPM-GD-CSMRI/' | relative_url }}) is now online! Many thanks to all collaborators.
+Our latest work [_Convergent Complex Quasi-Newton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing MRI Reconstruction_]({{ '/CQNPM-GD-CSMRI/' | relative_url }}) is now online! Many thanks to all collaborators.

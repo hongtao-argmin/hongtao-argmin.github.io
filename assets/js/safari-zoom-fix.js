@@ -2,8 +2,7 @@
 // Used on Safari always, and on all browsers when preview_scale/width/height is set.
 (function () {
   const ua = navigator.userAgent;
-  const isSafari =
-    /Safari/i.test(ua) && !/Chrome|Chromium|CriOS|Edg|OPR|Firefox|FxiOS/i.test(ua);
+  const isSafari = /Safari/i.test(ua) && !/Chrome|Chromium|CriOS|Edg|OPR|Firefox|FxiOS/i.test(ua);
 
   const OPEN_MS = 320;
   const CLOSE_MS = 260;
@@ -235,10 +234,7 @@
         if (!event.altKey) return;
         event.preventDefault();
         event.stopPropagation();
-        const href = (img.getAttribute("data-zoom-src") || img.currentSrc || img.src || "").replace(
-          /[?&](full|safari_full)=[^&]*/g,
-          ""
-        );
+        const href = (img.getAttribute("data-zoom-src") || img.currentSrc || img.src || "").replace(/[?&](full|safari_full)=[^&]*/g, "");
         window.open(href, "_blank", "noopener,noreferrer");
       });
     });

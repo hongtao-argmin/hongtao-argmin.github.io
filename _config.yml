@@ -18,7 +18,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
 keywords: numerical optimization, computational imaging, MRI, photoacoustic imaging, inverse problems, scientific computing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: badge-fire.png # blue fire favicon in /assets/img/
+icon: brand/blue-fire-48.png # transparent blue fire (poison-safe path; About is /)
 apple_touch_icon: tao-fire-touch.png # 180x180 blue fire for iOS / some browsers
 
 url: https://hongtao-argmin.github.io # the base hostname & protocol for your site

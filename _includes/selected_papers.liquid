@@ -11,7 +11,7 @@
 
 {% assign papers_limit = include.limit | default: page.selected_papers.limit %}
 {% if papers_limit == blank or papers_limit == '' or papers_limit == 0 %}
-  {% assign papers_limit = nil %}
+  {% assign papers_limit = null %}
 {% else %}
   {% assign papers_limit = papers_limit | plus: 0 %}
 {% endif %}

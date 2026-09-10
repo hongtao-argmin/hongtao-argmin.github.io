@@ -6,4 +6,4 @@ published: true
 related_posts: false
 ---
 
-Our work [*Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction*](https://arxiv.org/abs/2411.08178) was accepted to *IEEE Transactions on Computational Imaging*! Find our implementation at [Code](https://github.com/hongtao-argmin/RNP-AccImageRecon).
+Our work [_Using Randomized Nyström Preconditioners to Accelerate Variational Image Reconstruction_](https://arxiv.org/abs/2411.08178) was accepted to _IEEE Transactions on Computational Imaging_! Find our implementation at [Code](https://github.com/hongtao-argmin/RNP-AccImageRecon).

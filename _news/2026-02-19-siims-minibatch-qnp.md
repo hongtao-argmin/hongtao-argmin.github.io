@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work [*A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction*](https://arxiv.org/abs/2307.02043) was accepted to *SIAM Journal on Imaging Sciences*! Find our implementation at [Code](https://github.com/hongtao-argmin/MiniBatch-QNP-NonlinearReco).
+Our work [_A Mini-Batch Quasi-Newton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction_](https://arxiv.org/abs/2307.02043) was accepted to _SIAM Journal on Imaging Sciences_! Find our implementation at [Code](https://github.com/hongtao-argmin/MiniBatch-QNP-NonlinearReco).

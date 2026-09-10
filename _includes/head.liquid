@@ -78,44 +78,55 @@
 {% endif %}
 
 {% comment %}
-  Note: `x != blank` is unreliable here — Liquid's `blank` literal compares by calling
-  `blank?` on the other operand, and plain Ruby's NilClass/String have no `blank?`, so
-  the comparison yields nil and `!=` is therefore always true. An unset `site.icon`
-  used to fall through to the `elsif` below and emit `href="/assets/img/"`. Truthiness
-  plus an explicit empty-string check behaves correctly with or without ActiveSupport.
+  About is permalink `/`. Browsers (especially Safari) auto-fetch `/favicon.ico` for
+  that URL and cache the tab icon per-page, so About often kept a black-square ICO
+  while `/research/` etc. showed the JS SVG blue fire. Fix:
+  1. Static links to never-cached `assets/img/brand/blue-fire.*` (poison-safe paths).
+  2. Transparent root `/favicon.ico` (no black background).
+  3. Data-URI re-apply with a unique marker so Safari cannot reuse a stale entry.
 {% endcomment %}
-{% comment %}
-  Safari caches favicons per page URL and often keeps About (/) and Publications
-  on an old icon while Research/Software update. Inject a data-URI favicon and
-  re-apply it with a unique marker on every load so Safari cannot reuse a stale
-  path-based cache entry. Do not link poisoned file paths (favicon-32, etc.).
-{% endcomment %}
+<link
+  rel="icon"
+  href="{{ '/assets/img/brand/blue-fire.svg' | relative_url | bust_file_cache }}"
+  type="image/svg+xml"
+>
+<link
+  rel="icon"
+  href="{{ '/assets/img/brand/blue-fire-48.png' | relative_url | bust_file_cache }}"
+  type="image/png"
+  sizes="48x48"
+>
+<link
+  rel="shortcut icon"
+  href="{{ '/assets/img/brand/blue-fire-48.png' | relative_url | bust_file_cache }}"
+  type="image/png"
+>
 <script>
   (function () {
-    var svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" fill=\"none\"> <!-- Transparent blue fire \u2014 no background --> <g transform=\"translate(32 30) scale(1.28) translate(-32 -32)\"> <path fill=\"#1E6FFF\" d=\"M32 4c2 8 10 12 10 22 0 4-2 8-5 11 3-1 6-4 7-8 4 6 6 12 6 17 0 12-10 22-22 22S6 58 6 46c0-10 6-18 12-24-1 5 0 9 3 12 0-10 6-18 11-30z\"/> <path fill=\"#5CB6FF\" d=\"M32 18c1.5 5 6 8 6 14 0 3-1.2 5.5-3.2 7.5 2-.7 3.7-2.5 4.4-5 2.5 4 3.8 8 3.8 11.5 0 8-6.5 14.5-14.5 14.5S14 54 14 46c0-6.5 3.8-12 7.8-16-.5 3.2.2 5.8 2.2 8C24 30 28 24 32 18z\"/> <path fill=\"#B3E0FF\" d=\"M32 30c1 3.2 3.5 5 3.5 8.2 0 1.8-.7 3.2-1.8 4.4 1.2-.4 2.2-1.4 2.6-2.8 1.4 2.4 2.2 4.8 2.2 7 0 5-3.8 9-8.5 9S21 51.8 21 46.8c0-3.8 2.2-7 4.5-9.5-.3 1.8.2 3.4 1.4 4.6 0-4.2 2.5-8 5.1-11.9z\"/> </g> </svg>";
+    var svg =
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"> <!-- Transparent blue fire \u2014 no background --> <g transform="translate(32 30) scale(1.28) translate(-32 -32)"> <path fill="#1E6FFF" d="M32 4c2 8 10 12 10 22 0 4-2 8-5 11 3-1 6-4 7-8 4 6 6 12 6 17 0 12-10 22-22 22S6 58 6 46c0-10 6-18 12-24-1 5 0 9 3 12 0-10 6-18 11-30z"/> <path fill="#5CB6FF" d="M32 18c1.5 5 6 8 6 14 0 3-1.2 5.5-3.2 7.5 2-.7 3.7-2.5 4.4-5 2.5 4 3.8 8 3.8 11.5 0 8-6.5 14.5-14.5 14.5S14 54 14 46c0-6.5 3.8-12 7.8-16-.5 3.2.2 5.8 2.2 8C24 30 28 24 32 18z"/> <path fill="#B3E0FF" d="M32 30c1 3.2 3.5 5 3.5 8.2 0 1.8-.7 3.2-1.8 4.4 1.2-.4 2.2-1.4 2.6-2.8 1.4 2.4 2.2 4.8 2.2 7 0 5-3.8 9-8.5 9S21 51.8 21 46.8c0-3.8 2.2-7 4.5-9.5-.3 1.8.2 3.4 1.4 4.6 0-4.2 2.5-8 5.1-11.9z"/> </g> </svg>';
     function applyFavicon() {
-      var marked = svg.replace("</svg>", "<!--" + Date.now() + "--></svg>");
-      var href = "data:image/svg+xml," + encodeURIComponent(marked);
+      var marked = svg.replace('</svg>', '<!--' + Date.now() + '--></svg>');
+      var href = 'data:image/svg+xml,' + encodeURIComponent(marked);
       document.querySelectorAll('link[rel="icon"],link[rel="shortcut icon"]').forEach(function (el) {
         el.parentNode.removeChild(el);
       });
-      var link = document.createElement("link");
-      link.rel = "icon";
-      link.type = "image/svg+xml";
+      var link = document.createElement('link');
+      link.rel = 'icon';
+      link.type = 'image/svg+xml';
       link.href = href;
       document.head.insertBefore(link, document.head.firstChild);
     }
     applyFavicon();
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", applyFavicon);
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', applyFavicon);
     }
-    window.addEventListener("pageshow", applyFavicon);
+    window.addEventListener('pageshow', applyFavicon);
   })();
 </script>
 {% comment %}
   iOS home-screen bookmarks need `rel="apple-touch-icon"` pointing at a real raster
-  image. Use tao-fire-touch.png (never-poisoned path for Safari tab/touch cache).
-  See alshedivat/al-folio#2774.
+  image. Use a brand path Safari has not poisoned for the About (/) tab cache.
 {% endcomment %}
 <link rel="apple-touch-icon" href="{{ '/assets/img/tao-fire-touch.png' | relative_url | bust_file_cache }}">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">

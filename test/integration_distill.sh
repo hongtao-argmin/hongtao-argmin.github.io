@@ -1,16 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# shellcheck source=lib/posts_fixture_config.sh
+source "${ROOT_DIR}/test/lib/posts_fixture_config.sh"
+
 tmp_dir="$(mktemp -d)"
-tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
+rhino_stub=0
 
 cleanup() {
+  if [[ "${rhino_stub}" -eq 1 ]]; then
+    rm -f assets/img/rhino.png
+  fi
   rm -rf "${tmp_dir}"
 }
 trap cleanup EXIT
 
-cat >"${tmp_override}" <<'YAML'
+cat >"${tmp_dir}/override.yml" <<'YAML'
 giscus:
   repo: alshedivat/al-folio
   repo_id: R_kgDOExample
@@ -18,7 +25,26 @@ giscus:
   category_id: DIC_kwDOExample
 YAML
 
-bundle exec jekyll build --config "_config.yml,${tmp_override}" -d "${tmp_site}" >/dev/null
+# Distill demo lives under `_posts/` (excluded on the public site).
+prepare_fixture_post_excludes "${tmp_dir}" '*distill*'
+
+# Demo figure asset is not shipped with this personalized site; stub it for the build.
+if [[ ! -f assets/img/rhino.png ]]; then
+  mkdir -p assets/img
+  python3 - <<'PY'
+from pathlib import Path
+# Minimal 1x1 PNG
+Path("assets/img/rhino.png").write_bytes(
+    bytes.fromhex(
+        "89504e470d0a1a0a0000000d49484452000000010000000108060000001f15c489"
+        "0000000a49444154789c63000100000500010d0a2db40000000049454e44ae426082"
+    )
+)
+PY
+  rhino_stub=1
+fi
+
+bundle exec jekyll build --config "${tmp_dir}/config.yml,${tmp_dir}/override.yml" -d "${tmp_site}" >/dev/null
 
 distill_page="${tmp_site}/blog/2021/distill/index.html"
 

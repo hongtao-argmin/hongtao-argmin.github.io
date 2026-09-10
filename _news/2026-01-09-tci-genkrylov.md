@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work [*A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction with Gradient-Driven Denoisers*](https://arxiv.org/abs/2508.11219) was accepted to *IEEE Transactions on Computational Imaging*! The proposed method reconstructs high-quality images within seconds and is supported by a rigorous convergence analysis.
+Our work [_A Convergent Generalized Krylov Subspace Method for Compressed Sensing MRI Reconstruction with Gradient-Driven Denoisers_](https://arxiv.org/abs/2508.11219) was accepted to _IEEE Transactions on Computational Imaging_! The proposed method reconstructs high-quality images within seconds and is supported by a rigorous convergence analysis.
