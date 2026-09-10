@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - hongtao-argmin
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - hongtao-argmin/CQNPM-GDD-CS-MRI-Reco
+  - hongtao-argmin/MiniBatch-QNP-NonlinearReco
+  - hongtao-argmin/RNP-AccImageRecon
+  - hongtao-argmin/PPnP-CSMRIReco
+  - hongtao-argmin/CQNPCS_MRIReco
+  - hongtao-argmin/On-Adapting-Nesterov-Scheme-to-Accelerate-Iterative-Methods-for-Linear-Problems
+  - hongtao-argmin/Online-Learning-SMSD-Large-Dataset
+  - hongtao-argmin/Solving-RED-with-Weighted-Proximal-Methods----WPM-Solver
+  - hongtao-argmin/Acceleration-of-RED-via-Vector-Extrapolation

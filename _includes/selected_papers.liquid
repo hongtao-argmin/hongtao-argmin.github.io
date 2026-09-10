@@ -1,0 +1,49 @@
+{% comment %}
+  Selected papers on About.
+  - scrollable: fixed-height scroll box (page.selected_papers.scrollable / include.scrollable)
+  - limit: max entries via jekyll-scholar --max (page.selected_papers.limit / include.limit)
+  Which papers are eligible: selected={true} in papers.bib
+{% endcomment %}
+{% assign papers_scrollable = false %}
+{% if include.scrollable %}
+  {% assign papers_scrollable = true %}
+{% endif %}
+
+{% assign papers_limit = include.limit | default: page.selected_papers.limit %}
+{% if papers_limit == blank or papers_limit == '' or papers_limit == 0 %}
+  {% assign papers_limit = nil %}
+{% else %}
+  {% assign papers_limit = papers_limit | plus: 0 %}
+{% endif %}
+
+<div class="publications{% if papers_scrollable %} selected-papers-scrollable{% endif %}">
+  {% if papers_limit == 1 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 1 %}
+  {% elsif papers_limit == 2 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 2 %}
+  {% elsif papers_limit == 3 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 3 %}
+  {% elsif papers_limit == 4 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 4 %}
+  {% elsif papers_limit == 5 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 5 %}
+  {% elsif papers_limit == 6 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 6 %}
+  {% elsif papers_limit == 7 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 7 %}
+  {% elsif papers_limit == 8 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 8 %}
+  {% elsif papers_limit == 9 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 9 %}
+  {% elsif papers_limit == 10 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 10 %}
+  {% elsif papers_limit == 12 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 12 %}
+  {% elsif papers_limit == 15 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 15 %}
+  {% elsif papers_limit == 20 %}
+    {% bibliography --group_by none --query @*[selected=true]* --max 20 %}
+  {% else %}
+    {% bibliography --group_by none --query @*[selected=true]* %}
+  {% endif %}
+</div>

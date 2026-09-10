@@ -1,0 +1,13 @@
+---
+---
+{% assign ref = reference | replace_first: "]", "] " %}
+{% comment %} Bold own name (IEEE: T. Hong; rare full-name forms) {% endcomment %}
+{% assign ref = ref | replace: "T. Hong", "<strong class='research-self'>T. Hong</strong>" %}
+{% assign ref = ref | replace: "Tao Hong", "<strong class='research-self'>Tao Hong</strong>" %}
+{% comment %} Style citation indices [1]…[30] {% endcomment %}
+{% for i in (1..30) %}
+  {% capture needle %}[{{ i }}]{% endcapture %}
+  {% capture keyed %}<span class="research-ref-index">[{{ i }}]</span>{% endcapture %}
+  {% assign ref = ref | replace_first: needle, keyed %}
+{% endfor %}
+{{ ref }}

@@ -1,115 +1,427 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% Publication list (jekyll-scholar).
+% Preview files: assets/img/publication_preview/ (or a full URL).
+%
+% List thumbnail is always the default size. Optional fields below change ONLY
+% the click-to-zoom lightbox (omit any field to keep its default):
+%
+%   preview          = {file.png|gif|mp4}   show a thumbnail (required for one)
+%   preview_width    = {900px} or {80vw}    lightbox width   (default: auto)
+%   preview_height   = {400px} or {70vh}    lightbox height  (default: auto)
+%                      alias: preview_length
+%   preview_scale    = {1.5} or {0.5}       vs default lightbox fit size
+%                      >1 larger, <1 smaller; omit or 1 = default fit
+%
+% Width, height, and scale can be used alone or together.
+%
+% Examples:
+%   preview = {paper.png}
+%     -> default thumb; default lightbox
+%   preview = {paper.png}, preview_scale = {1.4}
+%     -> default thumb; lightbox enlarged 1.4x
+%   preview = {paper.png}, preview_scale = {0.7}
+%     -> default thumb; lightbox shrunk to 70%
+%   preview = {paper.gif}, preview_width = {900px}, preview_height = {400px}
+%     -> default thumb; lightbox 900x400
+%   preview = {paper.gif}, preview_width = {900px}, preview_scale = {1.2}
+%     -> default thumb; lightbox 900px wide, then scaled 1.2x
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
+==============================================================================
+ Journals (newest -> oldest)
+==============================================================================
 
-@book{einstein1956investigations,
+@article{hong2026genkrylov,
+  abbr        = {TCI},
+  title       = {A Convergent Generalized {K}rylov Subspace Method for Compressed Sensing {MRI} Reconstruction with Gradient-Driven Denoisers},
+  author      = {Hong, Tao and Villa, Umberto and Fessler, Jeffrey A.},
+  journal     = {IEEE Transactions on Computational Imaging},
+  volume      = {12},
+  pages       = {378--390},
+  year        = {2026},
+  month       = {Jan},
+  arxiv       = {2508.11219},
+  supp        = {https://www.dropbox.com/scl/fi/0nbfkqmc718q8kk15ywcw/SM_NonGKSGDenoiser.pdf?rlkey=cgzb07fm127i71scppny7llyf&dl=0},
+  poster      = {2025_Tao_GenKrylovGD_CSMRI_Poster.pdf},
+  selected    = {false},
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  pubtype     = {journal},
+  preview = {GenKrylov_TCI2026.png},
+  preview_scale = {0.7}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@article{hong2026minibatch,
+  abbr        = {SIIMS},
+  title       = {A Mini-Batch Quasi-{N}ewton Proximal Method for Constrained Total-Variation Nonlinear Image Reconstruction},
+  author      = {Hong, Tao and Pham, Thanh-an and Yavneh, Irad and Unser, Michael},
+  journal     = {SIAM Journal on Imaging Sciences},
+  volume      = {19},
+  number      = {3},
+  pages       = {1864--1894},
+  year        = {2026},
+  arxiv       = {2307.02043},
+  supp        = {supp_MiniBatchQNP.pdf},
+  poster      = {miniBatchQNP.pdf},
+  slides      = {MiniBatchODTSlides.pdf},
+  code        = {https://github.com/hongtao-argmin/MiniBatch-QNP-NonlinearReco},
+  selected    = {true},
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  pubtype     = {journal},
+  preview = {BQNPM_SIIMS2026.png},
+  preview_scale = {0.8}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@article{hong2025cqnpm,
+  abbr        = {TCI},
+  title       = {Convergent Complex Quasi-{N}ewton Proximal Methods for Gradient-Driven Denoisers in Compressed Sensing {MRI} Reconstruction},
+  author      = {Hong, Tao and Xu, Zhaoyi and Chun, Se Young and Hernandez-Garcia, Luis and Fessler, Jeffrey A.},
+  journal     = {IEEE Transactions on Computational Imaging},
+  volume      = {11},
+  pages       = {1534--1547},
+  year        = {2025},
+  month       = {Oct},
+  arxiv       = {2505.04820},
+  website     = {/CQNPM-GD-CSMRI/},
+  supp        = {https://www.dropbox.com/scl/fi/989xih55oojfo3grxa5d3/SM_CQNPMGDenoiser..pdf?rlkey=yujwhnxqmkd1ox5q4lou8b6yv&dl=0},
+  code        = {https://github.com/hongtao-argmin/CQNPM-GDD-CS-MRI-Reco},
+  selected    = {false},
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  pubtype     = {journal},
+  preview = {CQNGD_TCI2025.gif},
+  preview_scale = {1.5}
 }
 
-@book{przibram1967letters,
+@article{hong2025nystrom,
+  abbr        = {TCI},
+  title       = {Using Randomized {N}ystr{\"o}m Preconditioners to Accelerate Variational Image Reconstruction},
+  author      = {Hong, Tao and Xu, Zhaoyi and Hu, Jason and Fessler, Jeffrey A.},
+  journal     = {IEEE Transactions on Computational Imaging},
+  volume      = {11},
+  pages       = {1630--1643},
+  year        = {2025},
+  month       = {Oct},
+  arxiv       = {2411.08178},
+  supp        = {https://www.dropbox.com/scl/fi/48yf8w60fl1pu6z74mv9t/supplementary.pdf?rlkey=uji7dxxoe1cyc86b1aw351vr5&dl=0},
+  code        = {https://github.com/hongtao-argmin/RNP-AccImageRecon},
+  selected    = {false},
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  pubtype     = {journal},
+  preview  = {RandomizedNys_TCI2025.png},
 }
+
+@article{hong2024ppnp,
+  abbr        = {TCI},
+  title       = {Provable Preconditioned Plug-and-Play Approach for Compressed Sensing {MRI} Reconstruction},
+  author      = {Hong, Tao and Xu, Xiaojian and Hu, Jason and Fessler, Jeffrey A.},
+  journal     = {IEEE Transactions on Computational Imaging},
+  volume      = {10},
+  pages       = {1476--1488},
+  year        = {2024},
+  month       = {Oct},
+  arxiv       = {2405.03854},
+  poster      = {https://www.dropbox.com/scl/fi/zhx9pfedqca8zoxpj0l82/2024_Tao_PPnP_CSMRI_Poster.pdf?rlkey=1ba6d1jgaj8k0wjcruusn0gj6&dl=0},
+  slides      = {https://www.dropbox.com/scl/fi/zwhwogo93nzzyrmctf020/PPnP_Tao.pdf?rlkey=im0m2o5b0jj23mmjvrqi0hyho&dl=0},
+  code        = {https://github.com/hongtao-argmin/PPnP-CSMRIReco},
+  selected    = {true},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {PPnP_TCI2024.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2024cqnpm,
+  abbr        = {TCI},
+  title       = {A Complex Quasi-{N}ewton Proximal Method for Image Reconstruction in Compressed Sensing {MRI}},
+  author      = {Hong, Tao and Hernandez-Garcia, Luis and Fessler, Jeffrey A.},
+  journal     = {IEEE Transactions on Computational Imaging},
+  volume      = {10},
+  pages       = {372--384},
+  year        = {2024},
+  month       = {Feb},
+  arxiv       = {2303.02586},
+  slides      = {AccNes-CQNPM-MRI.pdf},
+  code        = {https://github.com/hongtao-argmin/CQNPCS_MRIReco},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {CQNPM_TCI2024.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2022nesterov,
+  abbr        = {NLAA},
+  title       = {On Adapting {N}esterov's Scheme to Accelerate Iterative Methods for Linear Problems},
+  author      = {Hong, Tao and Yavneh, Irad},
+  journal     = {Numerical Linear Algebra with Applications},
+  volume      = {29},
+  number      = {2},
+  pages       = {e2417},
+  year        = {2022},
+  selected    = {true},
+  arxiv       = {2102.09239},
+  slides      = {https://www.dropbox.com/s/k2jec9g6z0jzwna/NesterovPaperSlides.pdf?dl=0},
+  code        = {https://github.com/hongtao-argmin/On-Adapting-Nesterov-Scheme-to-Accelerate-Iterative-Methods-for-Linear-Problems},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {AdaptNesterov_NLLA2022.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2020redwpm,
+  abbr        = {SPL},
+  title       = {Solving {RED} with Weighted Proximal Methods},
+  author      = {Hong, Tao and Yavneh, Irad and Zibulevsky, Michael},
+  journal     = {IEEE Signal Processing Letters},
+  volume      = {27},
+  pages       = {501--505},
+  year        = {2020},
+  month       = {Mar},
+  arxiv       = {1905.13052},
+  slides      = {REDWPMSlides.pdf},
+  code        = {https://github.com/hongtao-argmin/Solving-RED-with-Weighted-Proximal-Methods----WPM-Solver},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {REDWPM_SPL2020.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2019red,
+  abbr        = {JVCI},
+  title       = {Acceleration of {RED} via Vector Extrapolation},
+  author      = {Hong, Tao and Romano, Yaniv and Elad, Michael},
+  journal     = {Journal of Visual Communication and Image Representation},
+  volume      = {63},
+  year        = {2019},
+  month       = {Aug},
+  arxiv       = {1805.02158},
+  code        = {https://github.com/hongtao-argmin/Acceleration-of-RED-via-Vector-Extrapolation},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {VERED_JVCI2019.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2019sensing,
+  abbr        = {SP},
+  title       = {Optimized Structured Sparse Sensing Matrices for Compressive Sensing},
+  author      = {Hong, Tao and Li, Xiao and Zhu, Zhihui and Li, Qiuwei},
+  journal     = {Signal Processing},
+  volume      = {159},
+  pages       = {119--129},
+  year        = {2019},
+  month       = {Jun},
+  arxiv       = {1709.06895},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {OptimizedStructure_SP2019.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2018online,
+  abbr        = {SP},
+  title       = {Online Learning Sensing Matrix and Sparsifying Dictionary Simultaneously for Compressive Sensing},
+  author      = {Hong, Tao and Zhu, Zhihui},
+  journal     = {Signal Processing},
+  volume      = {153},
+  pages       = {188--196},
+  year        = {2018},
+  month       = {Dec},
+  arxiv       = {1701.01000},
+  code        = {https://github.com/hongtao-argmin/Online-Learning-SMSD-Large-Dataset},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {OnlineJointProjDic_SP2018.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2018robust,
+  abbr        = {SP},
+  title       = {An Efficient Method for Robust Projection Matrix Design},
+  author      = {Hong, Tao and Zhu, Zhihui},
+  journal     = {Signal Processing},
+  volume      = {143},
+  pages       = {200--210},
+  year        = {2018},
+  month       = {Feb},
+  arxiv       = {1609.08281},
+  code        = {https://github.com/hongtao-argmin/An-efficient-method-for-robust-projection-matrix-design},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {EfficientRobustProj_SP2018.png},
+  preview_scale = {0.7}
+}
+
+@article{hong2016projection,
+  abbr        = {SP},
+  title       = {An Efficient Algorithm for Designing Projection Matrix in Compressive Sensing Based on Alternating Optimization},
+  author      = {Hong, Tao and Bai, Huang and Li, Sheng and Zhu, Zhihui},
+  journal     = {Signal Processing},
+  volume      = {125},
+  pages       = {9--20},
+  year        = {2016},
+  month       = {Aug},
+  pdf         = {EffRobustCS.pdf},
+  code        = {https://github.com/hongtao-argmin/An-Efficient-Algorithm-Designing-Robust-Projection-Matrix},
+  bibtex_show = {true},
+  pubtype     = {journal},
+  preview = {EfficientProj_SP2016.png},
+  preview_scale = {0.7}
+}
+
+
+==============================================================================
+ Conferences (newest -> oldest)
+==============================================================================
+
+@inproceedings{hong2026pact,
+  abbr        = {SPIE},
+  title       = {A Virtual Imaging Framework for {DCE}-{PACT} Estimation of Tumor Perfusion},
+  author      = {Hong, Tao and Shah, Jenil and Lozenski, Luke and Cam, Refik and Anastasio, Mark and Villa, Umberto},
+  booktitle   = {Medical Imaging: Physics of Medical Imaging},
+  year        = {2026},
+  publisher   = {SPIE},
+  bibtex_show = {true},
+  pubtype     = {conference},
+  preview = {PACTMF_SPIE2025.gif},
+   preview_scale = {2}
+}
+
+@inproceedings{hong2024ismrm,
+  abbr        = {ISMRM},
+  title       = {Fast Double Stochastic Proximal Method for {CS}-{MRI} Reconstruction with Multiple Wavelets},
+  author      = {Hong, Tao and Hernandez-Garcia, Luis and Fessler, Jeffrey A.},
+  booktitle   = {ISMRM},
+  year        = {2024},
+  bibtex_show = {true},
+  pubtype     = {conference},
+  preview = {FastDoubleStochastic_ISMRM2024.png},
+   preview_scale = {1.5}
+}
+
+@inproceedings{hong2023ismrm,
+  abbr        = {ISMRM},
+  title       = {Complex Quasi-{N}ewton Proximal Methods for the Image Reconstruction in Compressed Sensing {MRI}},
+  author      = {Hong, Tao and Hernandez-Garcia, Luis and Fessler, Jeffrey A.},
+  booktitle   = {ISMRM},
+  year        = {2023},
+  bibtex_show = {true},
+  pubtype     = {conference},
+  preview = {CQN_ISMRM2023.png}
+}
+
+@inproceedings{hong2014fista,
+  abbr        = {CISP},
+  title       = {Sparse Two-Dimension {FIR} Digital Filters using {FISTA}},
+  author      = {Hong, Tao and Bai, Huang and Wei, Yabin and Yang, Jie and Zhu, Zhihui},
+  booktitle   = {7th International Congress on Image and Signal Processing},
+  pages       = {815--819},
+  year        = {2014},
+  month       = {Oct},
+  pdf         = {Sparsetwo-dimensionalFIRdigitalfiltersdesignusingFISTA.pdf},
+  bibtex_show = {true},
+  pubtype     = {conference},
+  preview = {Sparse2DFilter_2014.png},
+   preview_scale = {1.5}
+}
+
+@inproceedings{hong2014allpass,
+  abbr        = {ICIEA},
+  title       = {A New Method for Design All-Pass Filters with Equiripple Group Delay Errors},
+  author      = {Hong, Tao and Bai, Huang and Li, Sheng and Huang, Chaogeng and Chang, Liping},
+  booktitle   = {IEEE 9th Conference on Industrial Electronics and Applications},
+  pages       = {1024--1028},
+  year        = {2014},
+  month       = {Jun},
+  pdf         = {Anewmethodfordesigningallpassfilterswithequiripplegroupdelayerrors.pdf},
+  bibtex_show = {true},
+  pubtype     = {conference},
+  preview = {NewAllpassEDGR_2014.png},
+   preview_scale = {1.5}
+}
+
+@inproceedings{hong2013hessenberg,
+  abbr        = {ICICS},
+  title       = {A {H}essenberg-Based Input Balanced Realization for All-Pass Systems},
+  author      = {Hong, Tao and Huang, Chaogeng and Li, Gang and Lim, Yongching},
+  booktitle   = {9th International Conference on Information, Communications and Signal Processing},
+  pages       = {1--5},
+  year        = {2013},
+  month       = {Dec},
+  pdf         = {AHessenberg-basedinputbalancedrealizationforall-passsystems.pdf},
+  bibtex_show = {true},
+  pubtype     = {conference},
+  preview = {HessenbergAllPass_2013.png},
+   preview_scale = {1.5}
+}
+
+@inproceedings{hong2013allpass,
+  abbr        = {CCC},
+  title       = {All-Pass Based Efficient and Robust Structures for Finite Precision Implementation of Digital Filters},
+  author      = {Hong, Tao and Tang, Si and Li, Gang and He, Xiongxiong and Chang, Liping},
+  booktitle   = {32nd Chinese Control Conference},
+  pages       = {4517--4522},
+  year        = {2013},
+  month       = {Jul},
+  pdf         = {All-passbasedefficientandrobuststructuresforfiniteprecisionimplementationofdigitalfilters.pdf},
+  bibtex_show = {true},
+  pubtype     = {conference},
+  preview = {RobustAllpass_2013.png},
+   preview_scale = {1.5}
+}
+
+
+==============================================================================
+ Preprints / arXiv (newest → oldest)
+==============================================================================
+
+@misc{hong2021diffraction,
+  abbr        = {arXiv},
+  title       = {Diffraction Tomography with {H}elmholtz Equation: Efficient and Robust Multigrid-Based Solver},
+  author      = {Hong, Tao and Pham, Thanh-an and Treister, Eran and Unser, Michael},
+  year        = {2021},
+  eprint      = {2107.03679},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.IV},
+  url         = {https://arxiv.org/abs/2107.03679},
+  arxiv       = {2107.03679},
+  bibtex_show = {true},
+  pubtype     = {preprint},
+  preview = {DT_MG_Helmholtz_preprint2021.png},
+  preview_scale = {2}
+}
+
+@misc{hong2018merging,
+  abbr        = {arXiv},
+  title       = {Merging Multigrid Optimization with {SESOP}},
+  author      = {Hong, Tao and Yavneh, Irad and Zibulevsky, Michael},
+  year        = {2018},
+  eprint      = {1812.06896},
+  archivePrefix = {arXiv},
+  primaryClass  = {math.OC},
+  url         = {https://arxiv.org/abs/1812.06896},
+  arxiv       = {1812.06896},
+  slides      = {MGSESOPSlides.pdf},
+  bibtex_show = {true},
+  pubtype     = {preprint},
+  preview = {MGSESOP_preprint2018.png},
+  preview_scale = {1.5}
+}
+
+
+==============================================================================
+ Thesis
+==============================================================================
+
+@phdthesis{hong2021thesis,
+  abbr        = {PhD},
+  title       = {Numerical Optimization and Multigrid Computational Methods with Applications},
+  author      = {Hong, Tao},
+  school      = {Technion -- Israel Institute of Technology},
+  year        = {2021},
+  pdf         = {PhDThesisTaoHong_Full.pdf},
+  note        = {Advisors: Prof. Irad Yavneh and Prof. Michael Zibulevsky},
+  bibtex_show = {true},
+  pubtype     = {thesis},
+  preview = {TechnionLogo.png}
+}
+
