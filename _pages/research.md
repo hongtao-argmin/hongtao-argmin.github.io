@@ -34,12 +34,12 @@ My long-term vision is to develop the **computational foundations** for next-gen
   <a class="research-band" href="#optimization">
     <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-computer"></i></div>
     <div class="research-band-title">1 · Numerical Methods</div>
-    <p class="research-band-text">Exploiting mathematical structure for efficient and reliable large-scale computation.</p>
+    <p class="research-band-text">Exploiting mathematical structure for efficient large-scale computation.</p>
   </a>
   <a class="research-band" href="#physics-learning">
     <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></div>
     <div class="research-band-title">2 · Physics + Learning</div>
-    <p class="research-band-text">Combining physical models with data-driven learning for interpretable reconstruction.</p>
+    <p class="research-band-text">Combining physical models with data-driven learning for reliable reconstruction.</p>
   </a>
   <a class="research-band" href="#computational-imaging">
     <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-microscope"></i></div>
@@ -54,7 +54,7 @@ My long-term vision is to develop the **computational foundations** for next-gen
     <span class="research-theme-index">Theme 1</span>
   </div>
   <h3 class="research-theme-title">Numerical Methods</h3>
-  <p class="research-theme-lead">Exploiting mathematical structure for efficient and reliable large-scale computation.</p>
+  <p class="research-theme-lead">Exploiting mathematical structure for efficient large-scale computation.</p>
 </header>
 
 Modern inverse problems often involve high-dimensional variables, nonlinear forward models, incomplete data, and complex physical models, posing fundamental challenges in both computation and reliability. My research develops numerical methods that exploit **mathematical and problem structure** to address these challenges efficiently and reliably.
@@ -85,7 +85,7 @@ My work draws broadly on **numerical analysis, scientific computing, and optimiz
     <span class="research-theme-index">Theme 2</span>
   </div>
   <h3 class="research-theme-title">Physics + Learning for Computational Imaging</h3>
-  <p class="research-theme-lead">Combining physical models with data-driven learning for interpretable reconstruction.</p>
+  <p class="research-theme-lead">Combining physical models with data-driven learning for reliable reconstruction.</p>
 </header>
 
 Computational imaging provides explicit knowledge of how measurements are physically generated, while **data-driven learning** can capture complex image structure from data. My research brings these complementary sources of information together within model-based reconstruction.
