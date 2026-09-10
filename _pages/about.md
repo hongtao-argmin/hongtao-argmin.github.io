@@ -57,7 +57,7 @@ My research lies at the intersection of applied mathematics and computational im
   <a class="research-band" href="{{ '/research/' | relative_url }}#optimization">
     <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-computer"></i></div>
     <div class="research-band-title">Numerical Methods</div>
-    <p class="research-band-text">Exploiting mathematical structure for  large-scale computation.</p>
+    <p class="research-band-text">Exploiting mathematical structure for efficient large-scale computation.</p>
   </a>
 
   <a class="research-band" href="{{ '/research/' | relative_url }}#physics-learning">

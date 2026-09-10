@@ -54,7 +54,7 @@ My long-term vision is to develop the **computational foundations** for next-gen
     <span class="research-theme-index">Theme 1</span>
   </div>
   <h3 class="research-theme-title">Numerical Methods</h3>
-  <p class="research-theme-lead">Exploiting mathematical structure for  large-scale computation.</p>
+  <p class="research-theme-lead">Exploiting mathematical structure for efficient large-scale computation.</p>
 </header>
 
 Modern inverse problems often involve high-dimensional variables, nonlinear forward models, incomplete data, and complex physical models, posing fundamental challenges in both computation and reliability. My research develops numerical methods that exploit **mathematical and problem structure** to address these challenges efficiently and reliably.
