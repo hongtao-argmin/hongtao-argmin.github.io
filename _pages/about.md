@@ -73,7 +73,6 @@ My research lies at the intersection of applied mathematics and computational im
   </a>
 </div>
 
-
 <div
   aria-hidden="true"
   style="position:absolute;width:1px;height:1px;overflow:hidden;left:-9999px;top:-9999px;"
