@@ -72,3 +72,15 @@ My research lies at the intersection of applied mathematics and computational im
     <p class="research-band-text">Extracting meaningful information from complex measurements.</p>
   </a>
 </div>
+
+
+<div
+  aria-hidden="true"
+  style="position:absolute;width:1px;height:1px;overflow:hidden;left:-9999px;top:-9999px;"
+>
+  <script
+    type="text/javascript"
+    id="mapmyvisitors"
+    src="https://mapmyvisitors.com/map.js?d=2HhDd8GrZPlKPR1oB3Q7ghjtQ3pdXfteaE0VLHRBTpM&cl=ffffff&w=a">
+  </script>
+</div>
