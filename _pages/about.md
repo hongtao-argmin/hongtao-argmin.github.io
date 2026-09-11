@@ -85,7 +85,7 @@ My research lies at the intersection of applied mathematics and computational im
   </script>
 </div>
 
-<% comment %>
+{% comment %}
 npx prettier _pages/about.md --check
 npx prettier _pages/about.md --check
-<% endcomment %>
+{% endcomment %}
