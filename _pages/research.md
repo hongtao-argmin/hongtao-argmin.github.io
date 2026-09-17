@@ -16,7 +16,6 @@ My long-term vision is to advance the **computational foundations** of next-gene
 
 Toward this vision, my research is organized around three connected themes: **numerical methods** for large-scale inverse problems, **physics + learning** for reliable reconstruction, and **biomedical & scientific** imaging. Together, these themes connect fundamental advances in computation with emerging challenges in biomedical and scientific imaging.
 
-
 <div class="research-vision">
 {% include figure.liquid
   path="assets/img/research/RV_Summary.png"
