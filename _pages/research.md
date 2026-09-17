@@ -2,13 +2,17 @@
 layout: page
 title: Research
 permalink: /research/
-description: Computational foundations for next-generation imaging
+description: Mathematical and computational methods for imaging science
 nav: true
 nav_order: 3
 # — large-scale optimization, physics + learning, and biomedical & scientific imaging.
 # toc:
 #   sidebar: left
 ---
+
+<<--!
+Computational foundations for next-generation imaging
+-->>
 
 <div class="research-page" markdown="1">
 
