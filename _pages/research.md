@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: Mathematical and computational methods for imaging science
+description: Computational imaging
 nav: true
 nav_order: 3
 # — large-scale optimization, physics + learning, and biomedical & scientific imaging.
