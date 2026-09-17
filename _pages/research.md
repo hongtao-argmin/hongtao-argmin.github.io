@@ -10,10 +10,6 @@ nav_order: 3
 #   sidebar: left
 ---
 
-<<--!
-Computational foundations for next-generation imaging
--->>
-
 <div class="research-page" markdown="1">
 
 My long-term vision is to advance the **computational foundations** of next-generation imaging systems. My research integrates mathematical structure, imaging physics, and data-driven learning to expand imaging capabilities. I am particularly interested in **jointly recovering images and latent imaging parameters** from incomplete and imperfect measurements, pushing the limits of what can be **resolved, tracked, and quantified**.
