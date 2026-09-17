@@ -46,7 +46,6 @@ My Erdős number is 3.
 
 My research develops the computational foundations of next generation imaging systems. I integrate mathematical structure, imaging physics, and data-driven learning to expand what can be reliably recovered from limited and imperfect measurements.
 
-
 <!--
 My research lies at the intersection of applied mathematics and computational imaging. I develop computational methods that integrate mathematical structure, imaging physics, and data-driven learning to solve large-scale inverse problems.
   doi         = {10.1137/25M1789305},
@@ -88,6 +87,6 @@ My research lies at the intersection of applied mathematics and computational im
 </div>
 
 {% comment %}
-npx prettier _pages/about.md --check
+npx prettier _pages/about.md --write
 npx prettier _pages/about.md --check
 {% endcomment %}
