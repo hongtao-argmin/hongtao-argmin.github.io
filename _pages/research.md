@@ -12,9 +12,10 @@ nav_order: 3
 
 <div class="research-page" markdown="1">
 
-My research focuses on extracting meaningful information from limited and imperfect measurements. I organize my work around three connected themes: **numerical methods** for large-scale inverse problems, **physics + learning** for reliable reconstruction, and **biomedical & scientific** imaging. Together, these themes connect advances in numerical computation with new capabilities in computational imaging.
+My long-term vision is to advance the **computational foundations** of next-generation imaging systems. My research integrates mathematical structure, imaging physics, and data-driven learning to expand imaging capabilities. I am particularly interested in **jointly recovering images and latent imaging parameters** from incomplete and imperfect measurements, pushing the limits of what can be **resolved, tracked, and quantified**.
 
-My long-term vision is to develop the **computational foundations** for next-generation imaging systems that integrate mathematical structure, physical models, and data-driven learning. I am particularly interested in **jointly recovering images and latent imaging parameters** from incomplete measurements, pushing the limits of what can be **resolved, tracked, and quantified**.
+Toward this vision, my research is organized around three connected themes: **numerical methods** for large-scale inverse problems, **physics + learning** for reliable reconstruction, and **biomedical & scientific** imaging. Together, these themes connect fundamental advances in computation with emerging challenges in biomedical and scientific imaging.
+
 
 <div class="research-vision">
 {% include figure.liquid

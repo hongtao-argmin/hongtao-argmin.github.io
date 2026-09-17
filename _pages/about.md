@@ -44,9 +44,11 @@ My Erdős number is 3.
 
 ### Research interests
 
-My research lies at the intersection of applied mathematics and computational imaging. I develop computational methods that integrate mathematical structure, imaging physics, and data-driven learning to solve large-scale inverse problems.
+My research develops the computational foundations of next generation imaging systems. I integrate mathematical structure, imaging physics, and data-driven learning to expand what can be reliably recovered from limited and imperfect measurements.
+
 
 <!--
+My research lies at the intersection of applied mathematics and computational imaging. I develop computational methods that integrate mathematical structure, imaging physics, and data-driven learning to solve large-scale inverse problems.
   doi         = {10.1137/25M1789305},
   url         = {https://doi.org/10.1137/25M1789305},
 - **Scalable numerical methods** — numerical analysis, optimization, and iterative methods for large-scale computational problems
