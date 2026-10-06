@@ -39,7 +39,7 @@ Toward this vision, my research is organized around three connected themes: **nu
   <a class="research-band" href="#physics-learning">
     <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></div>
     <div class="research-band-title">2 · Physics + Learning</div>
-    <p class="research-band-text">Combining physical models with learning for reliable reconstruction.</p>
+    <p class="research-band-text">Combining physical models with data-driven learning for reliable reconstruction.</p>
   </a>
   <a class="research-band" href="#computational-imaging">
     <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-microscope"></i></div>
