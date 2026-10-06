@@ -64,7 +64,7 @@ My research lies at the intersection of applied mathematics and computational im
   <a class="research-band" href="{{ '/research/' | relative_url }}#physics-learning">
     <div class="research-band-icon" aria-hidden="true"><i class="fa-solid fa-brain"></i></div>
     <div class="research-band-title">Physics + Learning</div>
-    <p class="research-band-text">Combining physical models with data-driven learning for reliable reconstruction.</p>
+    <p class="research-band-text">Combining physical models with learning for reliable reconstruction.</p>
   </a>
 
   <a class="research-band" href="{{ '/research/' | relative_url }}#computational-imaging">
