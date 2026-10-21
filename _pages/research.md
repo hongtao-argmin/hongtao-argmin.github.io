@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 description: Computational imaging
 nav: true
-nav_order: 3
+nav_order: 2
 # — large-scale optimization, physics + learning, and biomedical & scientific imaging.
 # toc:
 #   sidebar: left
