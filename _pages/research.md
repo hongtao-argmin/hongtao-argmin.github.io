@@ -12,9 +12,9 @@ nav_order: 2
 
 <div class="research-page" markdown="1">
 
-My long-term vision is to advance the **computational foundations** of next-generation imaging systems. My research integrates mathematical structure, imaging physics, and data-driven learning to expand imaging capabilities. I am particularly interested in **jointly recovering images and latent imaging parameters** from incomplete and imperfect measurements, pushing the limits of what can be **resolved, tracked, and quantified**.
+My long-term vision is to advance the **computational foundations** of next-generation imaging systems. My research integrates mathematical structure, imaging physics, and data-driven learning to expand imaging capabilities. I am particularly interested in  **recovering rich spatial, temporal, and quantitative information** from incomplete and imperfect measurements, pushing the limits of what can be **resolved, tracked, and quantified**.
 
-Toward this vision, my research is organized around three connected themes: **numerical methods** for large-scale inverse problems, **physics + learning** for reliable reconstruction, and **biomedical & scientific** imaging. Together, these themes connect fundamental advances in computation with emerging challenges in biomedical and scientific imaging.
+Toward this vision, my research is organized around three connected themes: **numerical methods** for large-scale inverse problems, **physics + learning** for reliable reconstruction, and **biomedical & scientific** imaging for understanding complex biological and physical systems. Together, these themes bridge fundamental advances in mathematics and computation with real-world imaging challenges, pushing the boundaries of imaging capabilities and enabling new scientific discoveries and biomedical applications. 
 
 <div class="research-vision">
 {% include figure.liquid
@@ -123,7 +123,7 @@ I am particularly interested in integrating learning with physical forward model
   <p class="research-theme-lead">Extracting meaningful information from complex measurements across MRI, photoacoustic, and optical imaging.</p>
 </header>
 
-Biomedical and scientific imaging increasingly seek to recover information that is not directly accessible from measured data, from high-resolution anatomical structure to dynamic and quantitative information. My research develops computational imaging methods that **expand what can be resolved, tracked, and quantified** from limited and imperfect measurements.
+Biomedical and scientific imaging increasingly aim to recover information that is not directly accessible from measurements, ranging from high-resolution anatomical structures to dynamic processes and quantitative properties. My research develops computational imaging methods that **expand what can be resolved, tracked, and quantified** from limited and imperfect measurements.
 
 I work across **magnetic resonance imaging, photoacoustic, and optical imaging**, where different measurement physics give rise to distinct inverse problems and computational challenges. Across these modalities, I am particularly interested in enabling faster and more robust imaging, resolving dynamic processes, and advancing quantitative imaging to better characterize underlying physical and physiological systems.
 
