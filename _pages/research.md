@@ -12,7 +12,7 @@ nav_order: 2
 
 <div class="research-page" markdown="1">
 
-My long-term vision is to advance the **computational foundations** of next-generation imaging systems. My research integrates mathematical structure, imaging physics, and data-driven learning to expand imaging capabilities. I am particularly interested in **recovering rich spatial, temporal, and quantitative information** from indirect, incomplete, and noisy measurements, pushing the limits of what can be **resolved, tracked, and quantified**.
+My long-term vision is to advance the **computational foundations** of next-generation imaging systems. By integrating mathematical structure, imaging physics, and data-driven learning, I develop methods to expand imaging capabilities. I am particularly interested in **recovering rich spatial, temporal, and quantitative information** from indirect, incomplete, and noisy measurements to push the limits of what can be **resolved, tracked, and quantified**.
 
 Toward this vision, my research is organized around three connected themes: **numerical methods** for large-scale inverse problems, **physics + learning** for reliable reconstruction, and **biomedical & scientific** imaging for understanding complex biological and physical systems. Together, these themes bridge fundamental advances in mathematics and computation with real-world imaging challenges, pushing the boundaries of imaging capabilities and enabling new scientific discoveries and biomedical applications.
 
